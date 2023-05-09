@@ -1,8 +1,10 @@
-title: DashLord example
+title: DashLord Dotations Locales
 description: Bonnes pratiques techniques
 entity: Ministères sociaux
 footer: Powered by SocialGouv
-marianne: false
+marianne: true
+matomoId: 259
+matomoUrl: https://stats.data.gouv.fr
 tools:
   404: true
   screenshot: true
@@ -21,9 +23,4 @@ tools:
   declaration-a11y: true
   ecoindex: true
 urls:
-  - url: https://www.fabrique.social.gouv.fr
-    repositories:
-      - socialgouv/www
-    docker:
-      - ghcr.io/socialgouv/fabrique/frontend
-  - url: https://beta.gouv.fr
+  - url: https://dotations.incubateur.anct.gouv.fr
