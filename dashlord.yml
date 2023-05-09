@@ -2,7 +2,7 @@ title: DashLord Dotations Locales
 description: Bonnes pratiques techniques
 entity: Ministères sociaux
 footer: Powered by SocialGouv
-marianne: true
+marianne: false
 matomoId: 259
 matomoUrl: https://stats.data.gouv.fr
 tools:
