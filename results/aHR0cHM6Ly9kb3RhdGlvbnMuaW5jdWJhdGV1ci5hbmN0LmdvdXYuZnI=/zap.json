@@ -1,7 +1,7 @@
 {
 	"@programName": "OWASP ZAP",
 	"@version": "2.12.0",
-	"@generated": "Sun, 14 May 2023 01:40:26",
+	"@generated": "Sun, 21 May 2023 01:42:50",
 	"site":[ 
 		{
 			"@name": "https://dotations.incubateur.anct.gouv.fr",
@@ -50,7 +50,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/Security/CSP/Introducing_Content_Security_Policy</p><p>https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html</p><p>http://www.w3.org/TR/CSP/</p><p>http://w3c.github.io/webappsec/specs/content-security-policy/csp-specification.dev.html</p><p>http://www.html5rocks.com/en/tutorials/security/content-security-policy/</p><p>http://caniuse.com/#feat=contentsecuritypolicy</p><p>http://content-security-policy.com/</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "6"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10020",
@@ -93,7 +93,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options</p>",
 					"cweid": "1021",
 					"wascid": "15",
-					"sourceid": "6"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "90003",
@@ -165,22 +165,6 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/-E8BuXM4rtLmj1qfS1Ae8/_buildManifest.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/-E8BuXM4rtLmj1qfS1Ae8/_ssgManifest.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
 							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/279-2c6274557fc77b7f.js",
 							"method": "GET",
 							"param": "",
@@ -197,7 +181,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/main-fbe9c9f0314b4cf5.js",
+							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/framework-73b8966a3c579ab0.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -205,7 +189,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/pages/index-75e037329d6b820b.js",
+							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/pages/index-9da0c26b5a1ed615.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -222,6 +206,22 @@
 						},
 						{
 							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/webpack-62c02dad1a6a4cb4.js",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/xaQc6zBgNBZdeLyaOzYgV/_buildManifest.js",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/xaQc6zBgNBZdeLyaOzYgV/_ssgManifest.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -307,7 +307,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/-E8BuXM4rtLmj1qfS1Ae8/_buildManifest.js",
+							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/pages/index-9da0c26b5a1ed615.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -315,7 +315,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/pages/index-75e037329d6b820b.js",
+							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -331,7 +331,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/css/470494c5391d2a45.css",
+							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/css/4b2b46dfb9ad4d01.css",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -406,7 +406,7 @@
 					"desc": "<p>A timestamp was disclosed by the application/web server - Unix</p>",
 					"instances":[ 
 						{
-							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/pages/_app-049f69def3591442.js",
+							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/pages/_app-51715e6493ad370b.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -414,7 +414,7 @@
 							"otherinfo": "1416354905, which evaluates to: 2014-11-18 23:55:05"
 						},
 						{
-							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/pages/_app-049f69def3591442.js",
+							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/pages/_app-51715e6493ad370b.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -422,7 +422,7 @@
 							"otherinfo": "1444681467, which evaluates to: 2015-10-12 20:24:27"
 						},
 						{
-							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/pages/_app-049f69def3591442.js",
+							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/pages/_app-51715e6493ad370b.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -430,7 +430,7 @@
 							"otherinfo": "1473231341, which evaluates to: 2016-09-07 06:55:41"
 						},
 						{
-							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/pages/_app-049f69def3591442.js",
+							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/pages/_app-51715e6493ad370b.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -438,7 +438,7 @@
 							"otherinfo": "1502002290, which evaluates to: 2017-08-06 06:51:30"
 						},
 						{
-							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/pages/_app-049f69def3591442.js",
+							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/pages/_app-51715e6493ad370b.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -446,7 +446,7 @@
 							"otherinfo": "1518500249, which evaluates to: 2018-02-13 05:37:29"
 						},
 						{
-							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/pages/_app-049f69def3591442.js",
+							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/pages/_app-51715e6493ad370b.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -454,7 +454,7 @@
 							"otherinfo": "1530992060, which evaluates to: 2018-07-07 19:34:20"
 						},
 						{
-							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/pages/_app-049f69def3591442.js",
+							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/pages/_app-51715e6493ad370b.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -462,7 +462,7 @@
 							"otherinfo": "1540483477, which evaluates to: 2018-10-25 16:04:37"
 						},
 						{
-							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/pages/_app-049f69def3591442.js",
+							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/pages/_app-51715e6493ad370b.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -470,7 +470,7 @@
 							"otherinfo": "1560198380, which evaluates to: 2019-06-10 20:26:20"
 						},
 						{
-							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/pages/_app-049f69def3591442.js",
+							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/pages/_app-51715e6493ad370b.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -478,7 +478,7 @@
 							"otherinfo": "1700485571, which evaluates to: 2023-11-20 13:06:11"
 						},
 						{
-							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/pages/_app-049f69def3591442.js",
+							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/pages/_app-51715e6493ad370b.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -486,7 +486,7 @@
 							"otherinfo": "1732584193, which evaluates to: 2024-11-26 01:23:13"
 						},
 						{
-							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/pages/_app-049f69def3591442.js",
+							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/pages/_app-51715e6493ad370b.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -494,7 +494,7 @@
 							"otherinfo": "1732584194, which evaluates to: 2024-11-26 01:23:14"
 						},
 						{
-							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/pages/_app-049f69def3591442.js",
+							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/pages/_app-51715e6493ad370b.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -502,7 +502,7 @@
 							"otherinfo": "1735328473, which evaluates to: 2024-12-27 19:41:13"
 						},
 						{
-							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/pages/_app-049f69def3591442.js",
+							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/pages/_app-51715e6493ad370b.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -510,7 +510,7 @@
 							"otherinfo": "1770035416, which evaluates to: 2026-02-02 12:30:16"
 						},
 						{
-							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/pages/_app-049f69def3591442.js",
+							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/pages/_app-51715e6493ad370b.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -518,7 +518,7 @@
 							"otherinfo": "1804603682, which evaluates to: 2027-03-09 14:48:02"
 						},
 						{
-							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/pages/_app-049f69def3591442.js",
+							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/pages/_app-51715e6493ad370b.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -526,7 +526,7 @@
 							"otherinfo": "1839030562, which evaluates to: 2028-04-11 01:49:22"
 						},
 						{
-							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/pages/_app-049f69def3591442.js",
+							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/pages/_app-51715e6493ad370b.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -534,7 +534,7 @@
 							"otherinfo": "1859775393, which evaluates to: 2028-12-07 04:16:33"
 						},
 						{
-							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/pages/_app-049f69def3591442.js",
+							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/pages/_app-51715e6493ad370b.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -542,7 +542,7 @@
 							"otherinfo": "1873313359, which evaluates to: 2029-05-12 20:49:19"
 						},
 						{
-							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/pages/_app-049f69def3591442.js",
+							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/pages/_app-51715e6493ad370b.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -550,7 +550,7 @@
 							"otherinfo": "1894986606, which evaluates to: 2030-01-18 17:10:06"
 						},
 						{
-							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/pages/_app-049f69def3591442.js",
+							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/pages/_app-51715e6493ad370b.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -558,7 +558,7 @@
 							"otherinfo": "1926607734, which evaluates to: 2031-01-19 16:48:54"
 						},
 						{
-							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/pages/_app-049f69def3591442.js",
+							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/pages/_app-51715e6493ad370b.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -566,7 +566,7 @@
 							"otherinfo": "1958414417, which evaluates to: 2032-01-22 20:00:17"
 						},
 						{
-							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/pages/_app-049f69def3591442.js",
+							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/pages/_app-51715e6493ad370b.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -580,7 +580,7 @@
 					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "49"
+					"sourceid": "53"
 				},
 				{
 					"pluginid": "10021",
@@ -601,7 +601,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/-E8BuXM4rtLmj1qfS1Ae8/_buildManifest.js",
+							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/pages/index-9da0c26b5a1ed615.js",
 							"method": "GET",
 							"param": "X-Content-Type-Options",
 							"attack": "",
@@ -609,7 +609,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/pages/index-75e037329d6b820b.js",
+							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js",
 							"method": "GET",
 							"param": "X-Content-Type-Options",
 							"attack": "",
@@ -625,7 +625,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/css/470494c5391d2a45.css",
+							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/css/4b2b46dfb9ad4d01.css",
 							"method": "GET",
 							"param": "X-Content-Type-Options",
 							"attack": "",
@@ -687,7 +687,7 @@
 					"reference": "<p>http://msdn.microsoft.com/en-us/library/ie/gg622941%28v=vs.85%29.aspx</p><p>https://owasp.org/www-community/Security_Headers</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10094",
@@ -704,16 +704,16 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "/_next/static/-E8BuXM4rtLmj1qfS1Ae8/_buildManifest",
-							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uCD6Bbs\uFFFD\uFFFD\uFFFD\\x001b\uFFFD3\uFFFD\uFFFD.h\uFFFD\uFFFD\uFFFD\uFFFD\\x0001\uFFFD?\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x001a\uFFFD'\u07B2"
+							"evidence": "/_next/static/xaQc6zBgNBZdeLyaOzYgV/_buildManifest",
+							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uCD6Bbs\uFFFDZA\u03B3\\x0006\\x0003Ae\u05CB\u0263\uFFFDb\\x0005\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x001a\uFFFD'\u07B2"
 						},
 						{
 							"uri": "https://dotations.incubateur.anct.gouv.fr/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "/_next/static/-E8BuXM4rtLmj1qfS1Ae8/_buildManifest",
-							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uCD6Bbs\uFFFD\uFFFD\uFFFD\\x001b\uFFFD3\uFFFD\uFFFD.h\uFFFD\uFFFD\uFFFD\uFFFD\\x0001\uFFFD?\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x001a\uFFFD'\u07B2"
+							"evidence": "/_next/static/xaQc6zBgNBZdeLyaOzYgV/_buildManifest",
+							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uCD6Bbs\uFFFDZA\u03B3\\x0006\\x0003Ae\u05CB\u0263\uFFFDb\\x0005\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x001a\uFFFD'\u07B2"
 						},
 						{
 							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/958-3f65c99cfb7233de.js",
@@ -724,7 +724,7 @@
 							"otherinfo": "r\uFFFD>w\uFFFD\\x001a\uFFFDo\uFFFD\uFFFD$\uFFFD\uFFFD\uFFFD-\uFFFD\u01E5y\uFFFD~2\u821E\uFFFD\uFFFD\\x0005\uFFFD\\x001e\uFFFD)\uFFFD\u07CC\uFFFD!b\uFFFDW\uFFFD\"zn\uFFFD\u89E6\uFFFD"
 						},
 						{
-							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/pages/_app-049f69def3591442.js",
+							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/pages/_app-51715e6493ad370b.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -736,13 +736,13 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "/_next/static/-E8BuXM4rtLmj1qfS1Ae8/_buildManifest",
-							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uCD6Bbs\uFFFD\uFFFD\uFFFD\\x001b\uFFFD3\uFFFD\uFFFD.h\uFFFD\uFFFD\uFFFD\uFFFD\\x0001\uFFFD?\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x001a\uFFFD'\u07B2"
+							"evidence": "/_next/static/xaQc6zBgNBZdeLyaOzYgV/_buildManifest",
+							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uCD6Bbs\uFFFDZA\u03B3\\x0006\\x0003Ae\u05CB\u0263\uFFFDb\\x0005\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x001a\uFFFD'\u07B2"
 						}
 					],
 					"count": "5",
 					"solution": "<p>Manually confirm that the Base64 data does not leak sensitive information, and that the data cannot be aggregated/used to exploit other vulnerabilities.</p>",
-					"otherinfo": "<p>\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uCD6Bbs\uFFFD\uFFFD\uFFFD\\x001b\uFFFD3\uFFFD\uFFFD.h\uFFFD\uFFFD\uFFFD\uFFFD\\x0001\uFFFD?\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x001a\uFFFD'\u07B2</p>",
+					"otherinfo": "<p>\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uCD6Bbs\uFFFDZA\u03B3\\x0006\\x0003Ae\u05CB\u0263\uFFFDb\\x0005\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x001a\uFFFD'\u07B2</p>",
 					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
@@ -764,7 +764,7 @@
 							"param": "",
 							"attack": "",
 							"evidence": "query",
-							"otherinfo": "The following pattern was used: \\bQUERY\\b and was detected in the element starting with: \"<script id=\"__NEXT_DATA__\" type=\"application/json\">{\"props\":{\"pageProps\":{}},\"page\":\"/\",\"query\":{},\"buildId\":\"-E8BuXM4rtLmj1qfS1\", see evidence field for the suspicious comment/snippet."
+							"otherinfo": "The following pattern was used: \\bQUERY\\b and was detected in the element starting with: \"<script id=\"__NEXT_DATA__\" type=\"application/json\">{\"props\":{\"pageProps\":{}},\"page\":\"/\",\"query\":{},\"buildId\":\"xaQc6zBgNBZdeLyaOz\", see evidence field for the suspicious comment/snippet."
 						},
 						{
 							"uri": "https://dotations.incubateur.anct.gouv.fr/",
@@ -772,7 +772,7 @@
 							"param": "",
 							"attack": "",
 							"evidence": "query",
-							"otherinfo": "The following pattern was used: \\bQUERY\\b and was detected in the element starting with: \"<script id=\"__NEXT_DATA__\" type=\"application/json\">{\"props\":{\"pageProps\":{}},\"page\":\"/\",\"query\":{},\"buildId\":\"-E8BuXM4rtLmj1qfS1\", see evidence field for the suspicious comment/snippet."
+							"otherinfo": "The following pattern was used: \\bQUERY\\b and was detected in the element starting with: \"<script id=\"__NEXT_DATA__\" type=\"application/json\">{\"props\":{\"pageProps\":{}},\"page\":\"/\",\"query\":{},\"buildId\":\"xaQc6zBgNBZdeLyaOz\", see evidence field for the suspicious comment/snippet."
 						},
 						{
 							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/705-80ad2a316309eaa1.js",
@@ -815,7 +815,7 @@
 							"otherinfo": "The following pattern was used: \\bTODO\\b and was detected in the element starting with: \"(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[579],{38779:function(e,n,t){(window.__NEXT_P=window.__NEXT_P||[]).push(\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/pages/_app-049f69def3591442.js",
+							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/pages/_app-51715e6493ad370b.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -823,7 +823,7 @@
 							"otherinfo": "The following pattern was used: \\bFROM\\b and was detected 8 times, the first in the element starting with: \" * The buffer module from node.js, for the browser.\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/pages/_app-049f69def3591442.js",
+							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/pages/_app-51715e6493ad370b.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -831,7 +831,7 @@
 							"otherinfo": "The following pattern was used: \\bQUERY\\b and was detected 3 times, the first in the element starting with: \" */function h(e,r){let t=g(e,r);return t}[\"a\",\"abbr\",\"address\",\"area\",\"article\",\"aside\",\"audio\",\"b\",\"base\",\"bdi\",\"bdo\",\"big\",\"bl\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/pages/_app-049f69def3591442.js",
+							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/pages/_app-51715e6493ad370b.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -852,12 +852,12 @@
 							"param": "",
 							"attack": "",
 							"evidence": "query",
-							"otherinfo": "The following pattern was used: \\bQUERY\\b and was detected in the element starting with: \"<script id=\"__NEXT_DATA__\" type=\"application/json\">{\"props\":{\"pageProps\":{}},\"page\":\"/[code]\",\"query\":{},\"buildId\":\"-E8BuXM4rtLm\", see evidence field for the suspicious comment/snippet."
+							"otherinfo": "The following pattern was used: \\bQUERY\\b and was detected in the element starting with: \"<script id=\"__NEXT_DATA__\" type=\"application/json\">{\"props\":{\"pageProps\":{}},\"page\":\"/[code]\",\"query\":{},\"buildId\":\"xaQc6zBgNBZd\", see evidence field for the suspicious comment/snippet."
 						}
 					],
 					"count": "12",
 					"solution": "<p>Remove all comments that return information that may help an attacker and fix any underlying problems they refer to.</p>",
-					"otherinfo": "<p>The following pattern was used: \\bQUERY\\b and was detected in the element starting with: \"<script id=\"__NEXT_DATA__\" type=\"application/json\">{\"props\":{\"pageProps\":{}},\"page\":\"/\",\"query\":{},\"buildId\":\"-E8BuXM4rtLmj1qfS1\", see evidence field for the suspicious comment/snippet.</p>",
+					"otherinfo": "<p>The following pattern was used: \\bQUERY\\b and was detected in the element starting with: \"<script id=\"__NEXT_DATA__\" type=\"application/json\">{\"props\":{\"pageProps\":{}},\"page\":\"/\",\"query\":{},\"buildId\":\"xaQc6zBgNBZdeLyaOz\", see evidence field for the suspicious comment/snippet.</p>",
 					"reference": "",
 					"cweid": "200",
 					"wascid": "13",
@@ -904,7 +904,7 @@
 					"reference": "",
 					"cweid": "-1",
 					"wascid": "-1",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10015",
@@ -963,7 +963,7 @@
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html#web-content-caching</p><p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control</p><p>https://grayduck.mn/2021/09/13/cache-control-recommendations/</p>",
 					"cweid": "525",
 					"wascid": "13",
-					"sourceid": "6"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10049",
@@ -984,7 +984,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/-E8BuXM4rtLmj1qfS1Ae8/_buildManifest.js",
+							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/pages/index-9da0c26b5a1ed615.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -992,7 +992,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/pages/index-75e037329d6b820b.js",
+							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1008,7 +1008,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/css/470494c5391d2a45.css",
+							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/css/4b2b46dfb9ad4d01.css",
 							"method": "GET",
 							"param": "",
 							"attack": "",

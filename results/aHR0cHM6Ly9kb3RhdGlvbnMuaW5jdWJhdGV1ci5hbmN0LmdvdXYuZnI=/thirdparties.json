@@ -9,14 +9,6 @@
       }
     },
     {
-      "type": "hotjar",
-      "url": "https://static.hotjar.com/c/hotjar-3163600.js?sv=6",
-      "details": {
-        "id": "hotjar",
-        "message": "Dont use HotJar"
-      }
-    },
-    {
       "type": "jsdelivr",
       "url": "https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.woff2?t=1590207869815",
       "details": {
@@ -57,11 +49,11 @@
   "headers": {
     "content-encoding": "gzip",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 14 May 2023 01:37:24 GMT",
-    "etag": "\"bhlcxzefll1nr\"",
+    "date": "Sun, 21 May 2023 01:40:09 GMT",
+    "etag": "\"h5dwqppffu1nr\"",
     "vary": "Accept-Encoding",
     "x-powered-by": "Next.js",
-    "x-request-id": "79603b2f-ea4a-418d-b4ff-509a4fb6c998"
+    "x-request-id": "dc43b542-bf08-4506-b6b1-6856b6d628f8"
   },
   "endpoints": [
     {
@@ -202,60 +194,6 @@
             }
           }
         ]
-      }
-    },
-    {
-      "hostname": "static.hotjar.com",
-      "ip": "13.226.204.29",
-      "geoip": {
-        "continent": {
-          "code": "NA",
-          "geoname_id": 6255149,
-          "names": {
-            "de": "Nordamerika",
-            "en": "North America",
-            "es": "Norteamérica",
-            "fr": "Amérique du Nord",
-            "ja": "北アメリカ",
-            "pt-BR": "América do Norte",
-            "ru": "Северная Америка",
-            "zh-CN": "北美洲"
-          }
-        },
-        "country": {
-          "geoname_id": 6252001,
-          "iso_code": "US",
-          "names": {
-            "de": "Vereinigte Staaten",
-            "en": "United States",
-            "es": "Estados Unidos",
-            "fr": "États Unis",
-            "ja": "アメリカ",
-            "pt-BR": "EUA",
-            "ru": "США",
-            "zh-CN": "美国"
-          }
-        },
-        "location": {
-          "accuracy_radius": 1000,
-          "latitude": 37.751,
-          "longitude": -97.822,
-          "time_zone": "America/Chicago"
-        },
-        "registered_country": {
-          "geoname_id": 6252001,
-          "iso_code": "US",
-          "names": {
-            "de": "Vereinigte Staaten",
-            "en": "United States",
-            "es": "Estados Unidos",
-            "fr": "États Unis",
-            "ja": "アメリカ",
-            "pt-BR": "EUA",
-            "ru": "США",
-            "zh-CN": "美国"
-          }
-        }
       }
     },
     {
