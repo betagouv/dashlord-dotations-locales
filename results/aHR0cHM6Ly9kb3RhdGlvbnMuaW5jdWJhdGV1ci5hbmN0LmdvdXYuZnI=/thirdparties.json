@@ -49,11 +49,11 @@
   "headers": {
     "content-encoding": "gzip",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 25 Jun 2023 02:05:59 GMT",
-    "etag": "\"39afohta751nr\"",
+    "date": "Sun, 02 Jul 2023 02:01:20 GMT",
+    "etag": "\"qczzcv17en1nr\"",
     "vary": "Accept-Encoding",
     "x-powered-by": "Next.js",
-    "x-request-id": "b11c14d3-1242-4130-bab4-d4ebd265d75c"
+    "x-request-id": "f36d1e65-655b-4da6-a8ed-33e47fa673b9"
   },
   "endpoints": [
     {
@@ -143,18 +143,18 @@
     },
     {
       "hostname": "cdn.jsdelivr.net",
-      "ip": "151.101.41.229",
+      "ip": "146.75.105.229",
       "geoip": {
         "city": {
-          "geoname_id": 5392171,
+          "geoname_id": 4684888,
           "names": {
-            "de": "San José",
-            "en": "San Jose",
-            "es": "San José",
-            "fr": "San José",
-            "ja": "サンノゼ",
-            "pt-BR": "San José",
-            "ru": "Сан-Хосе"
+            "de": "Dallas",
+            "en": "Dallas",
+            "es": "Dallas",
+            "fr": "Dallas",
+            "ja": "ダラス",
+            "pt-BR": "Dallas",
+            "ru": "Даллас"
           }
         },
         "continent": {
@@ -187,13 +187,13 @@
         },
         "location": {
           "accuracy_radius": 20,
-          "latitude": 37.1835,
-          "longitude": -121.7714,
-          "metro_code": 807,
-          "time_zone": "America/Los_Angeles"
+          "latitude": 32.7908,
+          "longitude": -96.8336,
+          "metro_code": 623,
+          "time_zone": "America/Chicago"
         },
         "postal": {
-          "code": "95141"
+          "code": "75207"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -211,17 +211,15 @@
         },
         "subdivisions": [
           {
-            "geoname_id": 5332921,
-            "iso_code": "CA",
+            "geoname_id": 4736286,
+            "iso_code": "TX",
             "names": {
-              "de": "Kalifornien",
-              "en": "California",
-              "es": "California",
-              "fr": "Californie",
-              "ja": "カリフォルニア州",
-              "pt-BR": "Califórnia",
-              "ru": "Калифорния",
-              "zh-CN": "加州"
+              "en": "Texas",
+              "es": "Texas",
+              "fr": "Texas",
+              "ja": "テキサス州",
+              "ru": "Техас",
+              "zh-CN": "德克萨斯州"
             }
           }
         ]
