@@ -1,7 +1,7 @@
 {
 	"@programName": "OWASP ZAP",
 	"@version": "2.13.0",
-	"@generated": "Sun, 23 Jul 2023 01:45:21",
+	"@generated": "Sun, 30 Jul 2023 01:29:17",
 	"site":[ 
 		{
 			"@name": "https://dotations.incubateur.anct.gouv.fr",
@@ -173,6 +173,14 @@
 							"otherinfo": ""
 						},
 						{
+							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/705-80ad2a316309eaa1.js",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
 							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/877-1ab3a5b39294bffc.js",
 							"method": "GET",
 							"param": "",
@@ -181,7 +189,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/971-e0e40deeae694fc2.js",
+							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/framework-73b8966a3c579ab0.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -205,14 +213,6 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/pages/index-b061c778657cec06.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
 							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js",
 							"method": "GET",
 							"param": "",
@@ -221,7 +221,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/iQIkV4wVOT8SoM33oZI6i/_buildManifest.js",
+							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/webpack-62c02dad1a6a4cb4.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -315,7 +315,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/main-fbe9c9f0314b4cf5.js",
+							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -323,7 +323,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js",
+							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/webpack-62c02dad1a6a4cb4.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -580,7 +580,7 @@
 					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "52"
+					"sourceid": "48"
 				},
 				{
 					"pluginid": "10021",
@@ -609,7 +609,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/main-fbe9c9f0314b4cf5.js",
+							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js",
 							"method": "GET",
 							"param": "x-content-type-options",
 							"attack": "",
@@ -617,7 +617,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js",
+							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/webpack-62c02dad1a6a4cb4.js",
 							"method": "GET",
 							"param": "x-content-type-options",
 							"attack": "",
@@ -941,14 +941,6 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://dotations.incubateur.anct.gouv.fr/robots.txt",
-							"method": "GET",
-							"param": "cache-control",
-							"attack": "",
-							"evidence": "public, max-age=0",
-							"otherinfo": ""
-						},
-						{
 							"uri": "https://dotations.incubateur.anct.gouv.fr/sitemap.xml",
 							"method": "GET",
 							"param": "cache-control",
@@ -957,7 +949,7 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "5",
+					"count": "4",
 					"solution": "<p>For secure content, ensure the cache-control HTTP header is set with \"no-cache, no-store, must-revalidate\". If an asset should be cached consider setting the directives \"public, max-age, immutable\".</p>",
 					"otherinfo": "",
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html#web-content-caching</p><p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control</p><p>https://grayduck.mn/2021/09/13/cache-control-recommendations/</p>",
@@ -1164,7 +1156,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/main-fbe9c9f0314b4cf5.js",
+							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1172,7 +1164,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js",
+							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/webpack-62c02dad1a6a4cb4.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
