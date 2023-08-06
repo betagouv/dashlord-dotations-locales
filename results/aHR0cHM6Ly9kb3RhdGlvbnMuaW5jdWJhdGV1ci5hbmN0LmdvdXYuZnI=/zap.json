@@ -1,7 +1,7 @@
 {
 	"@programName": "OWASP ZAP",
 	"@version": "2.13.0",
-	"@generated": "Sun, 30 Jul 2023 01:29:17",
+	"@generated": "Sun, 6 Aug 2023 01:21:36",
 	"site":[ 
 		{
 			"@name": "https://dotations.incubateur.anct.gouv.fr",
@@ -93,7 +93,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options</p>",
 					"cweid": "1021",
 					"wascid": "15",
-					"sourceid": "1"
+					"sourceid": "26"
 				},
 				{
 					"pluginid": "90003",
@@ -157,14 +157,6 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://dotations.incubateur.anct.gouv.fr/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
 							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/279-2c6274557fc77b7f.js",
 							"method": "GET",
 							"param": "",
@@ -182,6 +174,14 @@
 						},
 						{
 							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/877-1ab3a5b39294bffc.js",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/971-e0e40deeae694fc2.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -229,6 +229,14 @@
 							"otherinfo": ""
 						},
 						{
+							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/iQIkV4wVOT8SoM33oZI6i/_buildManifest.js",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
 							"uri": "https://dotations.incubateur.anct.gouv.fr/sitemap.xml",
 							"method": "GET",
 							"param": "",
@@ -237,7 +245,7 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "11",
+					"count": "12",
 					"solution": "<p>Ensure that your web server, application server, load balancer, etc. is configured to set the Permissions-Policy header.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Feature-Policy</p><p>https://developers.google.com/web/updates/2018/06/feature-policy</p><p>https://scotthelme.co.uk/a-new-security-header-feature-policy/</p><p>https://w3c.github.io/webappsec-feature-policy/</p><p>https://www.smashingmagazine.com/2018/12/feature-policy/</p>",
@@ -307,7 +315,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://dotations.incubateur.anct.gouv.fr/",
+							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/877-1ab3a5b39294bffc.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -580,7 +588,7 @@
 					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "48"
+					"sourceid": "53"
 				},
 				{
 					"pluginid": "10021",
@@ -601,7 +609,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"uri": "https://dotations.incubateur.anct.gouv.fr/",
+							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/877-1ab3a5b39294bffc.js",
 							"method": "GET",
 							"param": "x-content-type-options",
 							"attack": "",
@@ -941,6 +949,14 @@
 							"otherinfo": ""
 						},
 						{
+							"uri": "https://dotations.incubateur.anct.gouv.fr/robots.txt",
+							"method": "GET",
+							"param": "cache-control",
+							"attack": "",
+							"evidence": "public, max-age=0",
+							"otherinfo": ""
+						},
+						{
 							"uri": "https://dotations.incubateur.anct.gouv.fr/sitemap.xml",
 							"method": "GET",
 							"param": "cache-control",
@@ -949,7 +965,7 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "4",
+					"count": "5",
 					"solution": "<p>For secure content, ensure the cache-control HTTP header is set with \"no-cache, no-store, must-revalidate\". If an asset should be cached consider setting the directives \"public, max-age, immutable\".</p>",
 					"otherinfo": "",
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html#web-content-caching</p><p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control</p><p>https://grayduck.mn/2021/09/13/cache-control-recommendations/</p>",
@@ -976,7 +992,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://dotations.incubateur.anct.gouv.fr/",
+							"uri": "https://dotations.incubateur.anct.gouv.fr/favicon/apple-touch-icon.png",
 							"method": "GET",
 							"param": "Sec-Fetch-Dest",
 							"attack": "",
@@ -984,7 +1000,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://dotations.incubateur.anct.gouv.fr/robots.txt",
+							"uri": "https://dotations.incubateur.anct.gouv.fr/sitemap.xml",
 							"method": "GET",
 							"param": "Sec-Fetch-Dest",
 							"attack": "",
@@ -1019,7 +1035,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://dotations.incubateur.anct.gouv.fr/",
+							"uri": "https://dotations.incubateur.anct.gouv.fr/favicon/apple-touch-icon.png",
 							"method": "GET",
 							"param": "Sec-Fetch-Mode",
 							"attack": "",
@@ -1027,7 +1043,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://dotations.incubateur.anct.gouv.fr/robots.txt",
+							"uri": "https://dotations.incubateur.anct.gouv.fr/sitemap.xml",
 							"method": "GET",
 							"param": "Sec-Fetch-Mode",
 							"attack": "",
@@ -1062,7 +1078,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://dotations.incubateur.anct.gouv.fr/",
+							"uri": "https://dotations.incubateur.anct.gouv.fr/favicon/apple-touch-icon.png",
 							"method": "GET",
 							"param": "Sec-Fetch-Site",
 							"attack": "",
@@ -1070,7 +1086,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://dotations.incubateur.anct.gouv.fr/robots.txt",
+							"uri": "https://dotations.incubateur.anct.gouv.fr/sitemap.xml",
 							"method": "GET",
 							"param": "Sec-Fetch-Site",
 							"attack": "",
@@ -1105,7 +1121,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://dotations.incubateur.anct.gouv.fr/",
+							"uri": "https://dotations.incubateur.anct.gouv.fr/favicon/apple-touch-icon.png",
 							"method": "GET",
 							"param": "Sec-Fetch-User",
 							"attack": "",
@@ -1113,7 +1129,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://dotations.incubateur.anct.gouv.fr/robots.txt",
+							"uri": "https://dotations.incubateur.anct.gouv.fr/sitemap.xml",
 							"method": "GET",
 							"param": "Sec-Fetch-User",
 							"attack": "",
@@ -1148,12 +1164,12 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"uri": "https://dotations.incubateur.anct.gouv.fr/",
+							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/877-1ab3a5b39294bffc.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "",
-							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
+							"evidence": "max-age=31536000",
+							"otherinfo": ""
 						},
 						{
 							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js",
@@ -1253,7 +1269,7 @@
 					"reference": "<p>https://tools.ietf.org/html/rfc7234</p><p>https://tools.ietf.org/html/rfc7231</p><p>http://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html (obsoleted by rfc7234)</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "29"
+					"sourceid": "24"
 				}
 			]
 		}
