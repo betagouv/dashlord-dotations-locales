@@ -49,16 +49,16 @@
   "headers": {
     "content-encoding": "gzip",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 08 Oct 2023 01:19:29 GMT",
+    "date": "Sun, 15 Oct 2023 01:20:10 GMT",
     "etag": "\"nqv8a0gusi1nr\"",
     "vary": "Accept-Encoding",
     "x-powered-by": "Next.js",
-    "x-request-id": "21c6c222-6623-44dd-a279-25d3a35b2ddb"
+    "x-request-id": "e1ecdce3-8dad-4b48-997d-8eb0b19337a3"
   },
   "endpoints": [
     {
       "hostname": "dotations.incubateur.anct.gouv.fr",
-      "ip": "148.253.75.120",
+      "ip": "109.232.236.90",
       "geoip": {
         "continent": {
           "code": "EU",
@@ -200,12 +200,6 @@
       "hostname": "territoires.leximpact.dev",
       "ip": "51.15.157.233",
       "geoip": {
-        "city": {
-          "geoname_id": 2967322,
-          "names": {
-            "en": "Wissous"
-          }
-        },
         "continent": {
           "code": "EU",
           "geoname_id": 6255148,
@@ -236,13 +230,10 @@
           }
         },
         "location": {
-          "accuracy_radius": 100,
-          "latitude": 48.7336,
-          "longitude": 2.3294,
+          "accuracy_radius": 200,
+          "latitude": 48.8582,
+          "longitude": 2.3387,
           "time_zone": "Europe/Paris"
-        },
-        "postal": {
-          "code": "91320"
         },
         "registered_country": {
           "geoname_id": 3017382,
@@ -258,30 +249,7 @@
             "ru": "Франция",
             "zh-CN": "法国"
           }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 3012874,
-            "iso_code": "IDF",
-            "names": {
-              "de": "Île-de-France",
-              "en": "Île-de-France",
-              "es": "Isla de Francia",
-              "fr": "Île-de-France",
-              "pt-BR": "Ilha de França"
-            }
-          },
-          {
-            "geoname_id": 3019599,
-            "iso_code": "91",
-            "names": {
-              "de": "Essonne",
-              "en": "Essonne",
-              "es": "Essonne",
-              "fr": "Essonne"
-            }
-          }
-        ]
+        }
       }
     },
     {
