@@ -49,16 +49,16 @@
   "headers": {
     "content-encoding": "gzip",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 15 Oct 2023 01:20:10 GMT",
+    "date": "Sun, 22 Oct 2023 01:19:48 GMT",
     "etag": "\"nqv8a0gusi1nr\"",
     "vary": "Accept-Encoding",
     "x-powered-by": "Next.js",
-    "x-request-id": "e1ecdce3-8dad-4b48-997d-8eb0b19337a3"
+    "x-request-id": "4c2b7cec-a9a7-4979-862b-84d6ec38d6ca"
   },
   "endpoints": [
     {
       "hostname": "dotations.incubateur.anct.gouv.fr",
-      "ip": "109.232.236.90",
+      "ip": "148.253.75.120",
       "geoip": {
         "continent": {
           "code": "EU",
@@ -114,18 +114,18 @@
     },
     {
       "hostname": "cdn.jsdelivr.net",
-      "ip": "146.75.105.229",
+      "ip": "151.101.41.229",
       "geoip": {
         "city": {
-          "geoname_id": 4684888,
+          "geoname_id": 5392171,
           "names": {
-            "de": "Dallas",
-            "en": "Dallas",
-            "es": "Dallas",
-            "fr": "Dallas",
-            "ja": "ダラス",
-            "pt-BR": "Dallas",
-            "ru": "Даллас"
+            "de": "San José",
+            "en": "San Jose",
+            "es": "San José",
+            "fr": "San José",
+            "ja": "サンノゼ",
+            "pt-BR": "San José",
+            "ru": "Сан-Хосе"
           }
         },
         "continent": {
@@ -158,13 +158,13 @@
         },
         "location": {
           "accuracy_radius": 20,
-          "latitude": 32.7908,
-          "longitude": -96.8336,
-          "metro_code": 623,
-          "time_zone": "America/Chicago"
+          "latitude": 37.1835,
+          "longitude": -121.7714,
+          "metro_code": 807,
+          "time_zone": "America/Los_Angeles"
         },
         "postal": {
-          "code": "75207"
+          "code": "95141"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -182,15 +182,17 @@
         },
         "subdivisions": [
           {
-            "geoname_id": 4736286,
-            "iso_code": "TX",
+            "geoname_id": 5332921,
+            "iso_code": "CA",
             "names": {
-              "en": "Texas",
-              "es": "Texas",
-              "fr": "Texas",
-              "ja": "テキサス州",
-              "ru": "Техас",
-              "zh-CN": "德克萨斯州"
+              "de": "Kalifornien",
+              "en": "California",
+              "es": "California",
+              "fr": "Californie",
+              "ja": "カリフォルニア州",
+              "pt-BR": "Califórnia",
+              "ru": "Калифорния",
+              "zh-CN": "加州"
             }
           }
         ]
