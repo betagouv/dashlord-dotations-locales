@@ -1,7 +1,7 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.14.0",
-	"@generated": "Sun, 12 Nov 2023 01:23:51",
+	"@generated": "Sun, 19 Nov 2023 01:26:06",
 	"site":[ 
 		{
 			"@name": "https://dotations.incubateur.anct.gouv.fr",
@@ -163,7 +163,7 @@
 					"reference": "<p>https://github.com/advisories/GHSA-c59h-r6p8-q9wc</p><p></p>",
 					"cweid": "829",
 					"wascid": "-1",
-					"sourceid": "43"
+					"sourceid": "47"
 				},
 				{
 					"pluginid": "10063",
@@ -200,14 +200,6 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/705-80ad2a316309eaa1.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
 							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/877-1ab3a5b39294bffc.js",
 							"method": "GET",
 							"param": "",
@@ -217,6 +209,14 @@
 						},
 						{
 							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/main-fbe9c9f0314b4cf5.js",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/pages/%5Bcode%5D-d4f4fc9f74cb5964.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -270,7 +270,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Permissions-Policy</p><p>https://developer.chrome.com/blog/feature-policy/</p><p>https://scotthelme.co.uk/a-new-security-header-feature-policy/</p><p>https://w3c.github.io/webappsec-feature-policy/</p><p>https://www.smashingmagazine.com/2018/12/feature-policy/</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "6"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10037",
@@ -334,14 +334,6 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/pages/index-b061c778657cec06.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
 							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/webpack-62c02dad1a6a4cb4.js",
 							"method": "GET",
 							"param": "",
@@ -359,6 +351,14 @@
 						},
 						{
 							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/iQIkV4wVOT8SoM33oZI6i/_buildManifest.js",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/iQIkV4wVOT8SoM33oZI6i/_ssgManifest.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -628,14 +628,6 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/pages/index-b061c778657cec06.js",
-							"method": "GET",
-							"param": "x-content-type-options",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
-						},
-						{
 							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/chunks/webpack-62c02dad1a6a4cb4.js",
 							"method": "GET",
 							"param": "x-content-type-options",
@@ -653,6 +645,14 @@
 						},
 						{
 							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/iQIkV4wVOT8SoM33oZI6i/_buildManifest.js",
+							"method": "GET",
+							"param": "x-content-type-options",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
+						},
+						{
+							"uri": "https://dotations.incubateur.anct.gouv.fr/_next/static/iQIkV4wVOT8SoM33oZI6i/_ssgManifest.js",
 							"method": "GET",
 							"param": "x-content-type-options",
 							"attack": "",
@@ -773,7 +773,7 @@
 					"reference": "<p>https://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10027",
@@ -931,7 +931,7 @@
 					"reference": "",
 					"cweid": "-1",
 					"wascid": "-1",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10015",
@@ -990,7 +990,7 @@
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html#web-content-caching</p><p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control</p><p>https://grayduck.mn/2021/09/13/cache-control-recommendations/</p>",
 					"cweid": "525",
 					"wascid": "13",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "90005",
@@ -1019,7 +1019,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://dotations.incubateur.anct.gouv.fr/sitemap.xml",
+							"uri": "https://dotations.incubateur.anct.gouv.fr/robots.txt",
 							"method": "GET",
 							"param": "Sec-Fetch-Dest",
 							"attack": "",
@@ -1033,7 +1033,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Dest</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "6"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "90005",
@@ -1062,7 +1062,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://dotations.incubateur.anct.gouv.fr/sitemap.xml",
+							"uri": "https://dotations.incubateur.anct.gouv.fr/robots.txt",
 							"method": "GET",
 							"param": "Sec-Fetch-Mode",
 							"attack": "",
@@ -1076,7 +1076,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Mode</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "6"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "90005",
@@ -1105,7 +1105,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://dotations.incubateur.anct.gouv.fr/sitemap.xml",
+							"uri": "https://dotations.incubateur.anct.gouv.fr/robots.txt",
 							"method": "GET",
 							"param": "Sec-Fetch-Site",
 							"attack": "",
@@ -1148,7 +1148,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://dotations.incubateur.anct.gouv.fr/sitemap.xml",
+							"uri": "https://dotations.incubateur.anct.gouv.fr/robots.txt",
 							"method": "GET",
 							"param": "Sec-Fetch-User",
 							"attack": "",
@@ -1162,7 +1162,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-User</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "6"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10049",
@@ -1176,14 +1176,6 @@
 					"instances":[ 
 						{
 							"uri": "https://dotations.incubateur.anct.gouv.fr",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
-						},
-						{
-							"uri": "https://dotations.incubateur.anct.gouv.fr/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1231,13 +1223,13 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						}
 					],
-					"count": "7",
+					"count": "6",
 					"solution": "<p>Validate that the response does not contain sensitive, personal or user-specific information.  If it does, consider the use of the following HTTP response headers, to limit, or prevent the content being stored and retrieved from the cache by another user:</p><p>Cache-Control: no-cache, no-store, must-revalidate, private</p><p>Pragma: no-cache</p><p>Expires: 0</p><p>This configuration directs both HTTP 1.0 and HTTP 1.1 compliant caching servers to not store the response, and to not retrieve the response (without validation) from the cache, in response to a similar request. </p>",
 					"otherinfo": "<p>In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234.</p>",
 					"reference": "<p>https://datatracker.ietf.org/doc/html/rfc7234</p><p>https://datatracker.ietf.org/doc/html/rfc7231</p><p>https://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "6"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10049",
