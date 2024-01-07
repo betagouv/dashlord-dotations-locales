@@ -9,28 +9,16 @@
       }
     },
     {
+      "type": "unknown",
+      "url": "https://dotations-locales-back.osc-fr1.scalingo.io/init/"
+    },
+    {
       "type": "jsdelivr",
       "url": "https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.woff2?t=1590207869815",
       "details": {
         "id": "jsdelivr",
         "message": "Host files locally"
       }
-    },
-    {
-      "type": "unknown",
-      "url": "https://territoires.leximpact.dev/dgcl/communes/autocomplete?q="
-    },
-    {
-      "type": "unknown",
-      "url": "https://territoires.leximpact.dev/dgcl/epci/autocomplete?q="
-    },
-    {
-      "type": "unknown",
-      "url": "https://territoires.leximpact.dev/dgcl/departements/autocomplete?q="
-    },
-    {
-      "type": "unknown",
-      "url": "https://dotations-locales-back.osc-fr1.scalingo.io/init/"
     },
     {
       "type": "jsdelivr",
@@ -49,16 +37,16 @@
   "headers": {
     "content-encoding": "gzip",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 31 Dec 2023 01:22:43 GMT",
-    "etag": "\"nqv8a0gusi1nr\"",
+    "date": "Sun, 07 Jan 2024 01:25:12 GMT",
+    "etag": "\"onywqj55lh1nr\"",
     "vary": "Accept-Encoding",
     "x-powered-by": "Next.js",
-    "x-request-id": "17540dee-8625-46fc-a127-13c69b601df4"
+    "x-request-id": "94ee2fa1-8b11-457f-a69f-b98d6cd95986"
   },
   "endpoints": [
     {
       "hostname": "dotations.incubateur.anct.gouv.fr",
-      "ip": "109.232.233.130",
+      "ip": "109.232.236.90",
       "geoip": {
         "continent": {
           "code": "EU",
@@ -114,15 +102,19 @@
     },
     {
       "hostname": "cdn.jsdelivr.net",
-      "ip": "146.75.37.229",
+      "ip": "146.75.93.229",
       "geoip": {
         "city": {
-          "geoname_id": 4781530,
+          "geoname_id": 5368361,
           "names": {
-            "de": "Reston",
-            "en": "Reston",
-            "ja": "レストン",
-            "ru": "Рестон"
+            "de": "Los Angeles",
+            "en": "Los Angeles",
+            "es": "Los Ángeles",
+            "fr": "Los Angeles",
+            "ja": "ロサンゼルス",
+            "pt-BR": "Los Angeles",
+            "ru": "Лос-Анджелес",
+            "zh-CN": "洛杉矶"
           }
         },
         "continent": {
@@ -155,13 +147,13 @@
         },
         "location": {
           "accuracy_radius": 20,
-          "latitude": 38.9609,
-          "longitude": -77.3429,
-          "metro_code": 511,
-          "time_zone": "America/New_York"
+          "latitude": 34.0544,
+          "longitude": -118.244,
+          "metro_code": 803,
+          "time_zone": "America/Los_Angeles"
         },
         "postal": {
-          "code": "20190"
+          "code": "90012"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -179,106 +171,17 @@
         },
         "subdivisions": [
           {
-            "geoname_id": 6254928,
-            "iso_code": "VA",
+            "geoname_id": 5332921,
+            "iso_code": "CA",
             "names": {
-              "en": "Virginia",
-              "fr": "Virginie",
-              "ja": "バージニア州",
-              "pt-BR": "Virgínia",
-              "ru": "Вирджиния",
-              "zh-CN": "弗吉尼亚州"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "hostname": "territoires.leximpact.dev",
-      "ip": "212.83.187.126",
-      "geoip": {
-        "city": {
-          "geoname_id": 2998632,
-          "names": {
-            "de": "L'Haÿ-les-Roses",
-            "en": "L'Haÿ-les-Roses",
-            "fr": "L'Haÿ-les-Roses",
-            "pt-BR": "L'Haÿ-les-Roses"
-          }
-        },
-        "continent": {
-          "code": "EU",
-          "geoname_id": 6255148,
-          "names": {
-            "de": "Europa",
-            "en": "Europe",
-            "es": "Europa",
-            "fr": "Europe",
-            "ja": "ヨーロッパ",
-            "pt-BR": "Europa",
-            "ru": "Европа",
-            "zh-CN": "欧洲"
-          }
-        },
-        "country": {
-          "geoname_id": 3017382,
-          "is_in_european_union": true,
-          "iso_code": "FR",
-          "names": {
-            "de": "Frankreich",
-            "en": "France",
-            "es": "Francia",
-            "fr": "France",
-            "ja": "フランス共和国",
-            "pt-BR": "França",
-            "ru": "Франция",
-            "zh-CN": "法国"
-          }
-        },
-        "location": {
-          "accuracy_radius": 500,
-          "latitude": 48.7756,
-          "longitude": 2.3337,
-          "time_zone": "Europe/Paris"
-        },
-        "postal": {
-          "code": "94240"
-        },
-        "registered_country": {
-          "geoname_id": 3017382,
-          "is_in_european_union": true,
-          "iso_code": "FR",
-          "names": {
-            "de": "Frankreich",
-            "en": "France",
-            "es": "Francia",
-            "fr": "France",
-            "ja": "フランス共和国",
-            "pt-BR": "França",
-            "ru": "Франция",
-            "zh-CN": "法国"
-          }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 3012874,
-            "iso_code": "IDF",
-            "names": {
-              "de": "Île-de-France",
-              "en": "Île-de-France",
-              "es": "Isla de Francia",
-              "fr": "Île-de-France",
-              "pt-BR": "Ilha de França"
-            }
-          },
-          {
-            "geoname_id": 2971090,
-            "iso_code": "94",
-            "names": {
-              "de": "Val-de-Marne",
-              "en": "Val-de-Marne",
-              "es": "Valle de Marne",
-              "fr": "Val-de-Marne"
+              "de": "Kalifornien",
+              "en": "California",
+              "es": "California",
+              "fr": "Californie",
+              "ja": "カリフォルニア州",
+              "pt-BR": "Califórnia",
+              "ru": "Калифорния",
+              "zh-CN": "加州"
             }
           }
         ]
@@ -286,17 +189,8 @@
     },
     {
       "hostname": "dotations-locales-back.osc-fr1.scalingo.io",
-      "ip": "5.104.101.30",
+      "ip": "109.232.233.130",
       "geoip": {
-        "city": {
-          "geoname_id": 3034797,
-          "names": {
-            "de": "Bartenheim",
-            "en": "Bartenheim",
-            "fr": "Bartenheim",
-            "pt-BR": "Bartenheim"
-          }
-        },
         "continent": {
           "code": "EU",
           "geoname_id": 6255148,
@@ -328,12 +222,9 @@
         },
         "location": {
           "accuracy_radius": 500,
-          "latitude": 47.6376,
-          "longitude": 7.4798,
+          "latitude": 48.8582,
+          "longitude": 2.3387,
           "time_zone": "Europe/Paris"
-        },
-        "postal": {
-          "code": "68870"
         },
         "registered_country": {
           "geoname_id": 3017382,
@@ -349,28 +240,7 @@
             "ru": "Франция",
             "zh-CN": "法国"
           }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 11071622,
-            "iso_code": "GES",
-            "names": {
-              "en": "Grand Est",
-              "fr": "Grand Est"
-            }
-          },
-          {
-            "geoname_id": 3013663,
-            "iso_code": "68",
-            "names": {
-              "de": "Haut-Rhin",
-              "en": "Haut-Rhin",
-              "es": "Alto Rin",
-              "fr": "Haut-Rhin",
-              "pt-BR": "Alto Reno"
-            }
-          }
-        ]
+        }
       }
     }
   ]
