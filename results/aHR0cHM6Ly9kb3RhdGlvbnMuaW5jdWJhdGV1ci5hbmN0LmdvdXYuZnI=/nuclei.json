@@ -32,9 +32,9 @@
       "type": "dns",
       "host": "dotations.incubateur.anct.gouv.fr.",
       "matched-at": "dotations.incubateur.anct.gouv.fr",
-      "request": ";; opcode: QUERY, status: NOERROR, id: 33689\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 4096\n\n;; QUESTION SECTION:\n;dotations.incubateur.anct.gouv.fr.\tIN\t CAA\n",
-      "response": ";; opcode: QUERY, status: NOERROR, id: 33689\n;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 1, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 512\n\n;; QUESTION SECTION:\n;dotations.incubateur.anct.gouv.fr.\tIN\t CAA\n\n;; ANSWER SECTION:\ndotations.incubateur.anct.gouv.fr.\t3600\tIN\tCNAME\tdotations-locales-app.osc-fr1.scalingo.io.\ndotations-locales-app.osc-fr1.scalingo.io.\t300\tIN\tCNAME\tsc-lb-pool-01.osc-fr1.scalingo-network.com.\n\n;; AUTHORITY SECTION:\nscalingo-network.com.\t1800\tIN\tSOA\tburt.ns.cloudflare.com. dns.cloudflare.com. 2330923650 10000 2400 604800 1800\n",
-      "timestamp": "2024-01-28T01:29:29.000381446Z",
+      "request": ";; opcode: QUERY, status: NOERROR, id: 41590\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 4096\n\n;; QUESTION SECTION:\n;dotations.incubateur.anct.gouv.fr.\tIN\t CAA\n",
+      "response": ";; opcode: QUERY, status: NOERROR, id: 41590\n;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 1, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 512\n\n;; QUESTION SECTION:\n;dotations.incubateur.anct.gouv.fr.\tIN\t CAA\n\n;; ANSWER SECTION:\ndotations.incubateur.anct.gouv.fr.\t3600\tIN\tCNAME\tdotations-locales-app.osc-fr1.scalingo.io.\ndotations-locales-app.osc-fr1.scalingo.io.\t300\tIN\tCNAME\tsc-lb-pool-01.osc-fr1.scalingo-network.com.\n\n;; AUTHORITY SECTION:\nscalingo-network.com.\t1800\tIN\tSOA\tburt.ns.cloudflare.com. dns.cloudflare.com. 2332467695 10000 2400 604800 1800\n",
+      "timestamp": "2024-02-04T01:27:49.230441439Z",
       "matcher-status": true
     },
     {
@@ -69,9 +69,9 @@
       "extracted-results": [
         "dotations-locales-app.osc-fr1.scalingo.io."
       ],
-      "request": ";; opcode: QUERY, status: NOERROR, id: 39373\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 4096\n\n;; QUESTION SECTION:\n;dotations.incubateur.anct.gouv.fr.\tIN\t CNAME\n",
-      "response": ";; opcode: QUERY, status: NOERROR, id: 39373\n;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1232\n\n;; QUESTION SECTION:\n;dotations.incubateur.anct.gouv.fr.\tIN\t CNAME\n\n;; ANSWER SECTION:\ndotations.incubateur.anct.gouv.fr.\t3600\tIN\tCNAME\tdotations-locales-app.osc-fr1.scalingo.io.\n",
-      "timestamp": "2024-01-28T01:29:29.120276126Z",
+      "request": ";; opcode: QUERY, status: NOERROR, id: 40145\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 4096\n\n;; QUESTION SECTION:\n;dotations.incubateur.anct.gouv.fr.\tIN\t CNAME\n",
+      "response": ";; opcode: QUERY, status: NOERROR, id: 40145\n;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 512\n\n;; QUESTION SECTION:\n;dotations.incubateur.anct.gouv.fr.\tIN\t CNAME\n\n;; ANSWER SECTION:\ndotations.incubateur.anct.gouv.fr.\t3599\tIN\tCNAME\tdotations-locales-app.osc-fr1.scalingo.io.\n",
+      "timestamp": "2024-02-04T01:27:50.110733398Z",
       "matcher-status": true
     },
     {
@@ -85,6 +85,7 @@
           "pdteam"
         ],
         "tags": [
+          "miscellaneous",
           "misc",
           "generic"
         ],
@@ -101,9 +102,9 @@
         "HEAD"
       ],
       "request": "OPTIONS / HTTP/1.1\r\nHost: dotations.incubateur.anct.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-      "response": "HTTP/1.1 405 Method Not Allowed\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nAllow: GET\r\nAllow: HEAD\r\nCache-Control: no-cache, no-store, max-age=0, must-revalidate\r\nContent-Type: text/html; charset=utf-8\r\nDate: Sun, 28 Jan 2024 01:29:40 GMT\r\nEtag: \"hkragzvip21np\"\r\nVary: Accept-Encoding\r\nX-Powered-By: Next.js\r\nX-Request-Id: 348fb91e-93c8-4ba4-a56e-52af9dd6776e\r\n\r\n<!DOCTYPE html><html lang=\"fr\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width\"/><meta name=\"next-head-count\" content=\"2\"/><meta charSet=\"utf-8\"/><meta name=\"description\" content=\"Dotations Locales a pour vocation de construire avec les territoires un moyen d&#x27;estimer le montant de dotations de l&#x27;État en associant la connaissance que chaque territoire a de lui-même, les textes réglementaires modélisés ainsi que les données du calcul des dotations locales publiées en open data par la Direction Régionale des Collectivités Locales.\"/><meta name=\"theme-color\" content=\"#000091\"/><link rel=\"apple-touch-icon\" href=\"/favicon/apple-touch-icon.png\"/><link rel=\"icon\" href=\"/favicon/favicon.svg\" type=\"image/svg+xml\"/><link rel=\"shortcut icon\" href=\"/favicon/favicon.ico\" type=\"image/x-icon\"/><link rel=\"manifest\" href=\"/favicon/manifest.webmanifest\" crossorigin=\"use-credentials\"/><link href=\"https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css\" rel=\"stylesheet\"/><link rel=\"preload\" href=\"/_next/static/css/78eff6afd755b2bf.css\" as=\"style\"/><link rel=\"stylesheet\" href=\"/_next/static/css/78eff6afd755b2bf.css\" data-n-g=\"\"/><noscript data-n-css=\"\"></noscript><script defer=\"\" nomodule=\"\" src=\"/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js\"></script><script src=\"/_next/static/chunks/webpack-62c02dad1a6a4cb4.js\" defer=\"\"></script><script src=\"/_next/static/chunks/framework-73b8966a3c579ab0.js\" defer=\"\"></script><script src=\"/_next/static/chunks/main-fbe9c9f0314b4cf5.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/_app-6e3bb3549499e5a3.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/_error-3f6d1c55bb8051ab.js\" defer=\"\"></script><script src=\"/_next/static/92pUW3ciNEwHL8u4BsTYT/_buildManifest.js\" defer=\"\"></script><script src=\"/_next/static/92pUW3ciNEwHL8u4BsTYT/_ssgManifest.js\" defer=\"\"></script></head><body><div id=\"__next\"></div><script id=\"__NEXT_DATA__\" type=\"application/json\">{\"props\":{\"pageProps\":{\"statusCode\":405}},\"page\":\"/_error\",\"query\":{},\"buildId\":\"92pUW3ciNEwHL8u4BsTYT\",\"isFallback\":false,\"gip\":true,\"scriptLoader\":[]}</script></body></html>",
+      "response": "HTTP/1.1 405 Method Not Allowed\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nAllow: GET\r\nAllow: HEAD\r\nCache-Control: no-cache, no-store, max-age=0, must-revalidate\r\nContent-Type: text/html; charset=utf-8\r\nDate: Sun, 04 Feb 2024 01:27:56 GMT\r\nEtag: \"hkragzvip21np\"\r\nVary: Accept-Encoding\r\nX-Powered-By: Next.js\r\nX-Request-Id: 6fcb2d0f-a35a-41e5-b80f-c335b3118ac8\r\n\r\n<!DOCTYPE html><html lang=\"fr\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width\"/><meta name=\"next-head-count\" content=\"2\"/><meta charSet=\"utf-8\"/><meta name=\"description\" content=\"Dotations Locales a pour vocation de construire avec les territoires un moyen d&#x27;estimer le montant de dotations de l&#x27;État en associant la connaissance que chaque territoire a de lui-même, les textes réglementaires modélisés ainsi que les données du calcul des dotations locales publiées en open data par la Direction Régionale des Collectivités Locales.\"/><meta name=\"theme-color\" content=\"#000091\"/><link rel=\"apple-touch-icon\" href=\"/favicon/apple-touch-icon.png\"/><link rel=\"icon\" href=\"/favicon/favicon.svg\" type=\"image/svg+xml\"/><link rel=\"shortcut icon\" href=\"/favicon/favicon.ico\" type=\"image/x-icon\"/><link rel=\"manifest\" href=\"/favicon/manifest.webmanifest\" crossorigin=\"use-credentials\"/><link href=\"https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css\" rel=\"stylesheet\"/><link rel=\"preload\" href=\"/_next/static/css/78eff6afd755b2bf.css\" as=\"style\"/><link rel=\"stylesheet\" href=\"/_next/static/css/78eff6afd755b2bf.css\" data-n-g=\"\"/><noscript data-n-css=\"\"></noscript><script defer=\"\" nomodule=\"\" src=\"/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js\"></script><script src=\"/_next/static/chunks/webpack-62c02dad1a6a4cb4.js\" defer=\"\"></script><script src=\"/_next/static/chunks/framework-73b8966a3c579ab0.js\" defer=\"\"></script><script src=\"/_next/static/chunks/main-fbe9c9f0314b4cf5.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/_app-6e3bb3549499e5a3.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/_error-3f6d1c55bb8051ab.js\" defer=\"\"></script><script src=\"/_next/static/92pUW3ciNEwHL8u4BsTYT/_buildManifest.js\" defer=\"\"></script><script src=\"/_next/static/92pUW3ciNEwHL8u4BsTYT/_ssgManifest.js\" defer=\"\"></script></head><body><div id=\"__next\"></div><script id=\"__NEXT_DATA__\" type=\"application/json\">{\"props\":{\"pageProps\":{\"statusCode\":405}},\"page\":\"/_error\",\"query\":{},\"buildId\":\"92pUW3ciNEwHL8u4BsTYT\",\"isFallback\":false,\"gip\":true,\"scriptLoader\":[]}</script></body></html>",
       "ip": "109.232.236.90",
-      "timestamp": "2024-01-28T01:29:40.405793867Z",
+      "timestamp": "2024-02-04T01:27:56.662004065Z",
       "curl-command": "curl -X 'OPTIONS' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://dotations.incubateur.anct.gouv.fr'",
       "matcher-status": true
     },
@@ -130,9 +131,9 @@
       "host": "https://dotations.incubateur.anct.gouv.fr",
       "matched-at": "https://dotations.incubateur.anct.gouv.fr",
       "request": "GET / HTTP/1.1\r\nHost: dotations.incubateur.anct.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nContent-Type: text/html; charset=utf-8\r\nDate: Sun, 28 Jan 2024 01:30:26 GMT\r\nEtag: \"onywqj55lh1nr\"\r\nVary: Accept-Encoding\r\nX-Powered-By: Next.js\r\nX-Request-Id: 007ad651-5786-4db9-afa4-a12c5cdfdb11\r\n\r\n<!DOCTYPE html><html lang=\"fr\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width\"/><meta name=\"next-head-count\" content=\"2\"/><meta charSet=\"utf-8\"/><meta name=\"description\" content=\"Dotations Locales a pour vocation de construire avec les territoires un moyen d&#x27;estimer le montant de dotations de l&#x27;État en associant la connaissance que chaque territoire a de lui-même, les textes réglementaires modélisés ainsi que les données du calcul des dotations locales publiées en open data par la Direction Régionale des Collectivités Locales.\"/><meta name=\"theme-color\" content=\"#000091\"/><link rel=\"apple-touch-icon\" href=\"/favicon/apple-touch-icon.png\"/><link rel=\"icon\" href=\"/favicon/favicon.svg\" type=\"image/svg+xml\"/><link rel=\"shortcut icon\" href=\"/favicon/favicon.ico\" type=\"image/x-icon\"/><link rel=\"manifest\" href=\"/favicon/manifest.webmanifest\" crossorigin=\"use-credentials\"/><link href=\"https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css\" rel=\"stylesheet\"/><link rel=\"preload\" href=\"/_next/static/css/78eff6afd755b2bf.css\" as=\"style\"/><link rel=\"stylesheet\" href=\"/_next/static/css/78eff6afd755b2bf.css\" data-n-g=\"\"/><noscript data-n-css=\"\"></noscript><script defer=\"\" nomodule=\"\" src=\"/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js\"></script><script src=\"/_next/static/chunks/webpack-62c02dad1a6a4cb4.js\" defer=\"\"></script><script src=\"/_next/static/chunks/framework-73b8966a3c579ab0.js\" defer=\"\"></script><script src=\"/_next/static/chunks/main-fbe9c9f0314b4cf5.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/_app-6e3bb3549499e5a3.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/index-b659bf046f0eb349.js\" defer=\"\"></script><script src=\"/_next/static/92pUW3ciNEwHL8u4BsTYT/_buildManifest.js\" defer=\"\"></script><script src=\"/_next/static/92pUW3ciNEwHL8u4BsTYT/_ssgManifest.js\" defer=\"\"></script></head><body><div id=\"__next\"></div><script id=\"__NEXT_DATA__\" type=\"application/json\">{\"props\":{\"pageProps\":{}},\"page\":\"/\",\"query\":{},\"buildId\":\"92pUW3ciNEwHL8u4BsTYT\",\"nextExport\":true,\"autoExport\":true,\"isFallback\":false,\"scriptLoader\":[]}</script></body></html>",
+      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nContent-Type: text/html; charset=utf-8\r\nDate: Sun, 04 Feb 2024 01:28:25 GMT\r\nEtag: \"onywqj55lh1nr\"\r\nVary: Accept-Encoding\r\nX-Powered-By: Next.js\r\nX-Request-Id: 99b272bf-74d7-4754-b354-383521ee168f\r\n\r\n<!DOCTYPE html><html lang=\"fr\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width\"/><meta name=\"next-head-count\" content=\"2\"/><meta charSet=\"utf-8\"/><meta name=\"description\" content=\"Dotations Locales a pour vocation de construire avec les territoires un moyen d&#x27;estimer le montant de dotations de l&#x27;État en associant la connaissance que chaque territoire a de lui-même, les textes réglementaires modélisés ainsi que les données du calcul des dotations locales publiées en open data par la Direction Régionale des Collectivités Locales.\"/><meta name=\"theme-color\" content=\"#000091\"/><link rel=\"apple-touch-icon\" href=\"/favicon/apple-touch-icon.png\"/><link rel=\"icon\" href=\"/favicon/favicon.svg\" type=\"image/svg+xml\"/><link rel=\"shortcut icon\" href=\"/favicon/favicon.ico\" type=\"image/x-icon\"/><link rel=\"manifest\" href=\"/favicon/manifest.webmanifest\" crossorigin=\"use-credentials\"/><link href=\"https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css\" rel=\"stylesheet\"/><link rel=\"preload\" href=\"/_next/static/css/78eff6afd755b2bf.css\" as=\"style\"/><link rel=\"stylesheet\" href=\"/_next/static/css/78eff6afd755b2bf.css\" data-n-g=\"\"/><noscript data-n-css=\"\"></noscript><script defer=\"\" nomodule=\"\" src=\"/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js\"></script><script src=\"/_next/static/chunks/webpack-62c02dad1a6a4cb4.js\" defer=\"\"></script><script src=\"/_next/static/chunks/framework-73b8966a3c579ab0.js\" defer=\"\"></script><script src=\"/_next/static/chunks/main-fbe9c9f0314b4cf5.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/_app-6e3bb3549499e5a3.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/index-b659bf046f0eb349.js\" defer=\"\"></script><script src=\"/_next/static/92pUW3ciNEwHL8u4BsTYT/_buildManifest.js\" defer=\"\"></script><script src=\"/_next/static/92pUW3ciNEwHL8u4BsTYT/_ssgManifest.js\" defer=\"\"></script></head><body><div id=\"__next\"></div><script id=\"__NEXT_DATA__\" type=\"application/json\">{\"props\":{\"pageProps\":{}},\"page\":\"/\",\"query\":{},\"buildId\":\"92pUW3ciNEwHL8u4BsTYT\",\"nextExport\":true,\"autoExport\":true,\"isFallback\":false,\"scriptLoader\":[]}</script></body></html>",
       "ip": "109.232.236.90",
-      "timestamp": "2024-01-28T01:30:26.805034373Z",
+      "timestamp": "2024-02-04T01:28:25.482320478Z",
       "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://dotations.incubateur.anct.gouv.fr'",
       "matcher-status": true
     },
@@ -159,243 +160,9 @@
       "host": "https://dotations.incubateur.anct.gouv.fr",
       "matched-at": "https://dotations.incubateur.anct.gouv.fr",
       "request": "GET / HTTP/1.1\r\nHost: dotations.incubateur.anct.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nContent-Type: text/html; charset=utf-8\r\nDate: Sun, 28 Jan 2024 01:30:26 GMT\r\nEtag: \"onywqj55lh1nr\"\r\nVary: Accept-Encoding\r\nX-Powered-By: Next.js\r\nX-Request-Id: 007ad651-5786-4db9-afa4-a12c5cdfdb11\r\n\r\n<!DOCTYPE html><html lang=\"fr\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width\"/><meta name=\"next-head-count\" content=\"2\"/><meta charSet=\"utf-8\"/><meta name=\"description\" content=\"Dotations Locales a pour vocation de construire avec les territoires un moyen d&#x27;estimer le montant de dotations de l&#x27;État en associant la connaissance que chaque territoire a de lui-même, les textes réglementaires modélisés ainsi que les données du calcul des dotations locales publiées en open data par la Direction Régionale des Collectivités Locales.\"/><meta name=\"theme-color\" content=\"#000091\"/><link rel=\"apple-touch-icon\" href=\"/favicon/apple-touch-icon.png\"/><link rel=\"icon\" href=\"/favicon/favicon.svg\" type=\"image/svg+xml\"/><link rel=\"shortcut icon\" href=\"/favicon/favicon.ico\" type=\"image/x-icon\"/><link rel=\"manifest\" href=\"/favicon/manifest.webmanifest\" crossorigin=\"use-credentials\"/><link href=\"https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css\" rel=\"stylesheet\"/><link rel=\"preload\" href=\"/_next/static/css/78eff6afd755b2bf.css\" as=\"style\"/><link rel=\"stylesheet\" href=\"/_next/static/css/78eff6afd755b2bf.css\" data-n-g=\"\"/><noscript data-n-css=\"\"></noscript><script defer=\"\" nomodule=\"\" src=\"/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js\"></script><script src=\"/_next/static/chunks/webpack-62c02dad1a6a4cb4.js\" defer=\"\"></script><script src=\"/_next/static/chunks/framework-73b8966a3c579ab0.js\" defer=\"\"></script><script src=\"/_next/static/chunks/main-fbe9c9f0314b4cf5.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/_app-6e3bb3549499e5a3.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/index-b659bf046f0eb349.js\" defer=\"\"></script><script src=\"/_next/static/92pUW3ciNEwHL8u4BsTYT/_buildManifest.js\" defer=\"\"></script><script src=\"/_next/static/92pUW3ciNEwHL8u4BsTYT/_ssgManifest.js\" defer=\"\"></script></head><body><div id=\"__next\"></div><script id=\"__NEXT_DATA__\" type=\"application/json\">{\"props\":{\"pageProps\":{}},\"page\":\"/\",\"query\":{},\"buildId\":\"92pUW3ciNEwHL8u4BsTYT\",\"nextExport\":true,\"autoExport\":true,\"isFallback\":false,\"scriptLoader\":[]}</script></body></html>",
+      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nContent-Type: text/html; charset=utf-8\r\nDate: Sun, 04 Feb 2024 01:28:25 GMT\r\nEtag: \"onywqj55lh1nr\"\r\nVary: Accept-Encoding\r\nX-Powered-By: Next.js\r\nX-Request-Id: 99b272bf-74d7-4754-b354-383521ee168f\r\n\r\n<!DOCTYPE html><html lang=\"fr\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width\"/><meta name=\"next-head-count\" content=\"2\"/><meta charSet=\"utf-8\"/><meta name=\"description\" content=\"Dotations Locales a pour vocation de construire avec les territoires un moyen d&#x27;estimer le montant de dotations de l&#x27;État en associant la connaissance que chaque territoire a de lui-même, les textes réglementaires modélisés ainsi que les données du calcul des dotations locales publiées en open data par la Direction Régionale des Collectivités Locales.\"/><meta name=\"theme-color\" content=\"#000091\"/><link rel=\"apple-touch-icon\" href=\"/favicon/apple-touch-icon.png\"/><link rel=\"icon\" href=\"/favicon/favicon.svg\" type=\"image/svg+xml\"/><link rel=\"shortcut icon\" href=\"/favicon/favicon.ico\" type=\"image/x-icon\"/><link rel=\"manifest\" href=\"/favicon/manifest.webmanifest\" crossorigin=\"use-credentials\"/><link href=\"https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css\" rel=\"stylesheet\"/><link rel=\"preload\" href=\"/_next/static/css/78eff6afd755b2bf.css\" as=\"style\"/><link rel=\"stylesheet\" href=\"/_next/static/css/78eff6afd755b2bf.css\" data-n-g=\"\"/><noscript data-n-css=\"\"></noscript><script defer=\"\" nomodule=\"\" src=\"/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js\"></script><script src=\"/_next/static/chunks/webpack-62c02dad1a6a4cb4.js\" defer=\"\"></script><script src=\"/_next/static/chunks/framework-73b8966a3c579ab0.js\" defer=\"\"></script><script src=\"/_next/static/chunks/main-fbe9c9f0314b4cf5.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/_app-6e3bb3549499e5a3.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/index-b659bf046f0eb349.js\" defer=\"\"></script><script src=\"/_next/static/92pUW3ciNEwHL8u4BsTYT/_buildManifest.js\" defer=\"\"></script><script src=\"/_next/static/92pUW3ciNEwHL8u4BsTYT/_ssgManifest.js\" defer=\"\"></script></head><body><div id=\"__next\"></div><script id=\"__NEXT_DATA__\" type=\"application/json\">{\"props\":{\"pageProps\":{}},\"page\":\"/\",\"query\":{},\"buildId\":\"92pUW3ciNEwHL8u4BsTYT\",\"nextExport\":true,\"autoExport\":true,\"isFallback\":false,\"scriptLoader\":[]}</script></body></html>",
       "ip": "109.232.236.90",
-      "timestamp": "2024-01-28T01:30:26.805094856Z",
-      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://dotations.incubateur.anct.gouv.fr'",
-      "matcher-status": true
-    },
-    {
-      "template": "http/misconfiguration/http-missing-security-headers.yaml",
-      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
-      "template-id": "http-missing-security-headers",
-      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
-      "info": {
-        "name": "HTTP Missing Security Headers",
-        "author": [
-          "socketz",
-          "geeknik",
-          "g4l1t0",
-          "convisoappsec",
-          "kurohost",
-          "dawid-czarnecki",
-          "forgedhallpass",
-          "jub0bs"
-        ],
-        "tags": [
-          "misconfig",
-          "headers",
-          "generic"
-        ],
-        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-        "severity": "info",
-        "metadata": {
-          "max-request": 1
-        }
-      },
-      "matcher-name": "cross-origin-resource-policy",
-      "type": "http",
-      "host": "https://dotations.incubateur.anct.gouv.fr",
-      "matched-at": "https://dotations.incubateur.anct.gouv.fr",
-      "request": "GET / HTTP/1.1\r\nHost: dotations.incubateur.anct.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nContent-Type: text/html; charset=utf-8\r\nDate: Sun, 28 Jan 2024 01:30:42 GMT\r\nEtag: \"onywqj55lh1nr\"\r\nVary: Accept-Encoding\r\nX-Powered-By: Next.js\r\nX-Request-Id: 449a6e98-487a-4eeb-822b-fe4df2042140\r\n\r\n<!DOCTYPE html><html lang=\"fr\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width\"/><meta name=\"next-head-count\" content=\"2\"/><meta charSet=\"utf-8\"/><meta name=\"description\" content=\"Dotations Locales a pour vocation de construire avec les territoires un moyen d&#x27;estimer le montant de dotations de l&#x27;État en associant la connaissance que chaque territoire a de lui-même, les textes réglementaires modélisés ainsi que les données du calcul des dotations locales publiées en open data par la Direction Régionale des Collectivités Locales.\"/><meta name=\"theme-color\" content=\"#000091\"/><link rel=\"apple-touch-icon\" href=\"/favicon/apple-touch-icon.png\"/><link rel=\"icon\" href=\"/favicon/favicon.svg\" type=\"image/svg+xml\"/><link rel=\"shortcut icon\" href=\"/favicon/favicon.ico\" type=\"image/x-icon\"/><link rel=\"manifest\" href=\"/favicon/manifest.webmanifest\" crossorigin=\"use-credentials\"/><link href=\"https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css\" rel=\"stylesheet\"/><link rel=\"preload\" href=\"/_next/static/css/78eff6afd755b2bf.css\" as=\"style\"/><link rel=\"stylesheet\" href=\"/_next/static/css/78eff6afd755b2bf.css\" data-n-g=\"\"/><noscript data-n-css=\"\"></noscript><script defer=\"\" nomodule=\"\" src=\"/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js\"></script><script src=\"/_next/static/chunks/webpack-62c02dad1a6a4cb4.js\" defer=\"\"></script><script src=\"/_next/static/chunks/framework-73b8966a3c579ab0.js\" defer=\"\"></script><script src=\"/_next/static/chunks/main-fbe9c9f0314b4cf5.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/_app-6e3bb3549499e5a3.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/index-b659bf046f0eb349.js\" defer=\"\"></script><script src=\"/_next/static/92pUW3ciNEwHL8u4BsTYT/_buildManifest.js\" defer=\"\"></script><script src=\"/_next/static/92pUW3ciNEwHL8u4BsTYT/_ssgManifest.js\" defer=\"\"></script></head><body><div id=\"__next\"></div><script id=\"__NEXT_DATA__\" type=\"application/json\">{\"props\":{\"pageProps\":{}},\"page\":\"/\",\"query\":{},\"buildId\":\"92pUW3ciNEwHL8u4BsTYT\",\"nextExport\":true,\"autoExport\":true,\"isFallback\":false,\"scriptLoader\":[]}</script></body></html>",
-      "ip": "109.232.236.90",
-      "timestamp": "2024-01-28T01:30:42.824078696Z",
-      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://dotations.incubateur.anct.gouv.fr'",
-      "matcher-status": true
-    },
-    {
-      "template": "http/misconfiguration/http-missing-security-headers.yaml",
-      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
-      "template-id": "http-missing-security-headers",
-      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
-      "info": {
-        "name": "HTTP Missing Security Headers",
-        "author": [
-          "socketz",
-          "geeknik",
-          "g4l1t0",
-          "convisoappsec",
-          "kurohost",
-          "dawid-czarnecki",
-          "forgedhallpass",
-          "jub0bs"
-        ],
-        "tags": [
-          "misconfig",
-          "headers",
-          "generic"
-        ],
-        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-        "severity": "info",
-        "metadata": {
-          "max-request": 1
-        }
-      },
-      "matcher-name": "strict-transport-security",
-      "type": "http",
-      "host": "https://dotations.incubateur.anct.gouv.fr",
-      "matched-at": "https://dotations.incubateur.anct.gouv.fr",
-      "request": "GET / HTTP/1.1\r\nHost: dotations.incubateur.anct.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nContent-Type: text/html; charset=utf-8\r\nDate: Sun, 28 Jan 2024 01:30:42 GMT\r\nEtag: \"onywqj55lh1nr\"\r\nVary: Accept-Encoding\r\nX-Powered-By: Next.js\r\nX-Request-Id: 449a6e98-487a-4eeb-822b-fe4df2042140\r\n\r\n<!DOCTYPE html><html lang=\"fr\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width\"/><meta name=\"next-head-count\" content=\"2\"/><meta charSet=\"utf-8\"/><meta name=\"description\" content=\"Dotations Locales a pour vocation de construire avec les territoires un moyen d&#x27;estimer le montant de dotations de l&#x27;État en associant la connaissance que chaque territoire a de lui-même, les textes réglementaires modélisés ainsi que les données du calcul des dotations locales publiées en open data par la Direction Régionale des Collectivités Locales.\"/><meta name=\"theme-color\" content=\"#000091\"/><link rel=\"apple-touch-icon\" href=\"/favicon/apple-touch-icon.png\"/><link rel=\"icon\" href=\"/favicon/favicon.svg\" type=\"image/svg+xml\"/><link rel=\"shortcut icon\" href=\"/favicon/favicon.ico\" type=\"image/x-icon\"/><link rel=\"manifest\" href=\"/favicon/manifest.webmanifest\" crossorigin=\"use-credentials\"/><link href=\"https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css\" rel=\"stylesheet\"/><link rel=\"preload\" href=\"/_next/static/css/78eff6afd755b2bf.css\" as=\"style\"/><link rel=\"stylesheet\" href=\"/_next/static/css/78eff6afd755b2bf.css\" data-n-g=\"\"/><noscript data-n-css=\"\"></noscript><script defer=\"\" nomodule=\"\" src=\"/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js\"></script><script src=\"/_next/static/chunks/webpack-62c02dad1a6a4cb4.js\" defer=\"\"></script><script src=\"/_next/static/chunks/framework-73b8966a3c579ab0.js\" defer=\"\"></script><script src=\"/_next/static/chunks/main-fbe9c9f0314b4cf5.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/_app-6e3bb3549499e5a3.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/index-b659bf046f0eb349.js\" defer=\"\"></script><script src=\"/_next/static/92pUW3ciNEwHL8u4BsTYT/_buildManifest.js\" defer=\"\"></script><script src=\"/_next/static/92pUW3ciNEwHL8u4BsTYT/_ssgManifest.js\" defer=\"\"></script></head><body><div id=\"__next\"></div><script id=\"__NEXT_DATA__\" type=\"application/json\">{\"props\":{\"pageProps\":{}},\"page\":\"/\",\"query\":{},\"buildId\":\"92pUW3ciNEwHL8u4BsTYT\",\"nextExport\":true,\"autoExport\":true,\"isFallback\":false,\"scriptLoader\":[]}</script></body></html>",
-      "ip": "109.232.236.90",
-      "timestamp": "2024-01-28T01:30:42.824143067Z",
-      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://dotations.incubateur.anct.gouv.fr'",
-      "matcher-status": true
-    },
-    {
-      "template": "http/misconfiguration/http-missing-security-headers.yaml",
-      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
-      "template-id": "http-missing-security-headers",
-      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
-      "info": {
-        "name": "HTTP Missing Security Headers",
-        "author": [
-          "socketz",
-          "geeknik",
-          "g4l1t0",
-          "convisoappsec",
-          "kurohost",
-          "dawid-czarnecki",
-          "forgedhallpass",
-          "jub0bs"
-        ],
-        "tags": [
-          "misconfig",
-          "headers",
-          "generic"
-        ],
-        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-        "severity": "info",
-        "metadata": {
-          "max-request": 1
-        }
-      },
-      "matcher-name": "content-security-policy",
-      "type": "http",
-      "host": "https://dotations.incubateur.anct.gouv.fr",
-      "matched-at": "https://dotations.incubateur.anct.gouv.fr",
-      "request": "GET / HTTP/1.1\r\nHost: dotations.incubateur.anct.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nContent-Type: text/html; charset=utf-8\r\nDate: Sun, 28 Jan 2024 01:30:42 GMT\r\nEtag: \"onywqj55lh1nr\"\r\nVary: Accept-Encoding\r\nX-Powered-By: Next.js\r\nX-Request-Id: 449a6e98-487a-4eeb-822b-fe4df2042140\r\n\r\n<!DOCTYPE html><html lang=\"fr\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width\"/><meta name=\"next-head-count\" content=\"2\"/><meta charSet=\"utf-8\"/><meta name=\"description\" content=\"Dotations Locales a pour vocation de construire avec les territoires un moyen d&#x27;estimer le montant de dotations de l&#x27;État en associant la connaissance que chaque territoire a de lui-même, les textes réglementaires modélisés ainsi que les données du calcul des dotations locales publiées en open data par la Direction Régionale des Collectivités Locales.\"/><meta name=\"theme-color\" content=\"#000091\"/><link rel=\"apple-touch-icon\" href=\"/favicon/apple-touch-icon.png\"/><link rel=\"icon\" href=\"/favicon/favicon.svg\" type=\"image/svg+xml\"/><link rel=\"shortcut icon\" href=\"/favicon/favicon.ico\" type=\"image/x-icon\"/><link rel=\"manifest\" href=\"/favicon/manifest.webmanifest\" crossorigin=\"use-credentials\"/><link href=\"https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css\" rel=\"stylesheet\"/><link rel=\"preload\" href=\"/_next/static/css/78eff6afd755b2bf.css\" as=\"style\"/><link rel=\"stylesheet\" href=\"/_next/static/css/78eff6afd755b2bf.css\" data-n-g=\"\"/><noscript data-n-css=\"\"></noscript><script defer=\"\" nomodule=\"\" src=\"/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js\"></script><script src=\"/_next/static/chunks/webpack-62c02dad1a6a4cb4.js\" defer=\"\"></script><script src=\"/_next/static/chunks/framework-73b8966a3c579ab0.js\" defer=\"\"></script><script src=\"/_next/static/chunks/main-fbe9c9f0314b4cf5.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/_app-6e3bb3549499e5a3.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/index-b659bf046f0eb349.js\" defer=\"\"></script><script src=\"/_next/static/92pUW3ciNEwHL8u4BsTYT/_buildManifest.js\" defer=\"\"></script><script src=\"/_next/static/92pUW3ciNEwHL8u4BsTYT/_ssgManifest.js\" defer=\"\"></script></head><body><div id=\"__next\"></div><script id=\"__NEXT_DATA__\" type=\"application/json\">{\"props\":{\"pageProps\":{}},\"page\":\"/\",\"query\":{},\"buildId\":\"92pUW3ciNEwHL8u4BsTYT\",\"nextExport\":true,\"autoExport\":true,\"isFallback\":false,\"scriptLoader\":[]}</script></body></html>",
-      "ip": "109.232.236.90",
-      "timestamp": "2024-01-28T01:30:42.824166781Z",
-      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://dotations.incubateur.anct.gouv.fr'",
-      "matcher-status": true
-    },
-    {
-      "template": "http/misconfiguration/http-missing-security-headers.yaml",
-      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
-      "template-id": "http-missing-security-headers",
-      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
-      "info": {
-        "name": "HTTP Missing Security Headers",
-        "author": [
-          "socketz",
-          "geeknik",
-          "g4l1t0",
-          "convisoappsec",
-          "kurohost",
-          "dawid-czarnecki",
-          "forgedhallpass",
-          "jub0bs"
-        ],
-        "tags": [
-          "misconfig",
-          "headers",
-          "generic"
-        ],
-        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-        "severity": "info",
-        "metadata": {
-          "max-request": 1
-        }
-      },
-      "matcher-name": "x-frame-options",
-      "type": "http",
-      "host": "https://dotations.incubateur.anct.gouv.fr",
-      "matched-at": "https://dotations.incubateur.anct.gouv.fr",
-      "request": "GET / HTTP/1.1\r\nHost: dotations.incubateur.anct.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nContent-Type: text/html; charset=utf-8\r\nDate: Sun, 28 Jan 2024 01:30:42 GMT\r\nEtag: \"onywqj55lh1nr\"\r\nVary: Accept-Encoding\r\nX-Powered-By: Next.js\r\nX-Request-Id: 449a6e98-487a-4eeb-822b-fe4df2042140\r\n\r\n<!DOCTYPE html><html lang=\"fr\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width\"/><meta name=\"next-head-count\" content=\"2\"/><meta charSet=\"utf-8\"/><meta name=\"description\" content=\"Dotations Locales a pour vocation de construire avec les territoires un moyen d&#x27;estimer le montant de dotations de l&#x27;État en associant la connaissance que chaque territoire a de lui-même, les textes réglementaires modélisés ainsi que les données du calcul des dotations locales publiées en open data par la Direction Régionale des Collectivités Locales.\"/><meta name=\"theme-color\" content=\"#000091\"/><link rel=\"apple-touch-icon\" href=\"/favicon/apple-touch-icon.png\"/><link rel=\"icon\" href=\"/favicon/favicon.svg\" type=\"image/svg+xml\"/><link rel=\"shortcut icon\" href=\"/favicon/favicon.ico\" type=\"image/x-icon\"/><link rel=\"manifest\" href=\"/favicon/manifest.webmanifest\" crossorigin=\"use-credentials\"/><link href=\"https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css\" rel=\"stylesheet\"/><link rel=\"preload\" href=\"/_next/static/css/78eff6afd755b2bf.css\" as=\"style\"/><link rel=\"stylesheet\" href=\"/_next/static/css/78eff6afd755b2bf.css\" data-n-g=\"\"/><noscript data-n-css=\"\"></noscript><script defer=\"\" nomodule=\"\" src=\"/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js\"></script><script src=\"/_next/static/chunks/webpack-62c02dad1a6a4cb4.js\" defer=\"\"></script><script src=\"/_next/static/chunks/framework-73b8966a3c579ab0.js\" defer=\"\"></script><script src=\"/_next/static/chunks/main-fbe9c9f0314b4cf5.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/_app-6e3bb3549499e5a3.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/index-b659bf046f0eb349.js\" defer=\"\"></script><script src=\"/_next/static/92pUW3ciNEwHL8u4BsTYT/_buildManifest.js\" defer=\"\"></script><script src=\"/_next/static/92pUW3ciNEwHL8u4BsTYT/_ssgManifest.js\" defer=\"\"></script></head><body><div id=\"__next\"></div><script id=\"__NEXT_DATA__\" type=\"application/json\">{\"props\":{\"pageProps\":{}},\"page\":\"/\",\"query\":{},\"buildId\":\"92pUW3ciNEwHL8u4BsTYT\",\"nextExport\":true,\"autoExport\":true,\"isFallback\":false,\"scriptLoader\":[]}</script></body></html>",
-      "ip": "109.232.236.90",
-      "timestamp": "2024-01-28T01:30:42.824181208Z",
-      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://dotations.incubateur.anct.gouv.fr'",
-      "matcher-status": true
-    },
-    {
-      "template": "http/misconfiguration/http-missing-security-headers.yaml",
-      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
-      "template-id": "http-missing-security-headers",
-      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
-      "info": {
-        "name": "HTTP Missing Security Headers",
-        "author": [
-          "socketz",
-          "geeknik",
-          "g4l1t0",
-          "convisoappsec",
-          "kurohost",
-          "dawid-czarnecki",
-          "forgedhallpass",
-          "jub0bs"
-        ],
-        "tags": [
-          "misconfig",
-          "headers",
-          "generic"
-        ],
-        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-        "severity": "info",
-        "metadata": {
-          "max-request": 1
-        }
-      },
-      "matcher-name": "x-permitted-cross-domain-policies",
-      "type": "http",
-      "host": "https://dotations.incubateur.anct.gouv.fr",
-      "matched-at": "https://dotations.incubateur.anct.gouv.fr",
-      "request": "GET / HTTP/1.1\r\nHost: dotations.incubateur.anct.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nContent-Type: text/html; charset=utf-8\r\nDate: Sun, 28 Jan 2024 01:30:42 GMT\r\nEtag: \"onywqj55lh1nr\"\r\nVary: Accept-Encoding\r\nX-Powered-By: Next.js\r\nX-Request-Id: 449a6e98-487a-4eeb-822b-fe4df2042140\r\n\r\n<!DOCTYPE html><html lang=\"fr\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width\"/><meta name=\"next-head-count\" content=\"2\"/><meta charSet=\"utf-8\"/><meta name=\"description\" content=\"Dotations Locales a pour vocation de construire avec les territoires un moyen d&#x27;estimer le montant de dotations de l&#x27;État en associant la connaissance que chaque territoire a de lui-même, les textes réglementaires modélisés ainsi que les données du calcul des dotations locales publiées en open data par la Direction Régionale des Collectivités Locales.\"/><meta name=\"theme-color\" content=\"#000091\"/><link rel=\"apple-touch-icon\" href=\"/favicon/apple-touch-icon.png\"/><link rel=\"icon\" href=\"/favicon/favicon.svg\" type=\"image/svg+xml\"/><link rel=\"shortcut icon\" href=\"/favicon/favicon.ico\" type=\"image/x-icon\"/><link rel=\"manifest\" href=\"/favicon/manifest.webmanifest\" crossorigin=\"use-credentials\"/><link href=\"https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css\" rel=\"stylesheet\"/><link rel=\"preload\" href=\"/_next/static/css/78eff6afd755b2bf.css\" as=\"style\"/><link rel=\"stylesheet\" href=\"/_next/static/css/78eff6afd755b2bf.css\" data-n-g=\"\"/><noscript data-n-css=\"\"></noscript><script defer=\"\" nomodule=\"\" src=\"/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js\"></script><script src=\"/_next/static/chunks/webpack-62c02dad1a6a4cb4.js\" defer=\"\"></script><script src=\"/_next/static/chunks/framework-73b8966a3c579ab0.js\" defer=\"\"></script><script src=\"/_next/static/chunks/main-fbe9c9f0314b4cf5.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/_app-6e3bb3549499e5a3.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/index-b659bf046f0eb349.js\" defer=\"\"></script><script src=\"/_next/static/92pUW3ciNEwHL8u4BsTYT/_buildManifest.js\" defer=\"\"></script><script src=\"/_next/static/92pUW3ciNEwHL8u4BsTYT/_ssgManifest.js\" defer=\"\"></script></head><body><div id=\"__next\"></div><script id=\"__NEXT_DATA__\" type=\"application/json\">{\"props\":{\"pageProps\":{}},\"page\":\"/\",\"query\":{},\"buildId\":\"92pUW3ciNEwHL8u4BsTYT\",\"nextExport\":true,\"autoExport\":true,\"isFallback\":false,\"scriptLoader\":[]}</script></body></html>",
-      "ip": "109.232.236.90",
-      "timestamp": "2024-01-28T01:30:42.824289378Z",
-      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://dotations.incubateur.anct.gouv.fr'",
-      "matcher-status": true
-    },
-    {
-      "template": "http/misconfiguration/http-missing-security-headers.yaml",
-      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
-      "template-id": "http-missing-security-headers",
-      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
-      "info": {
-        "name": "HTTP Missing Security Headers",
-        "author": [
-          "socketz",
-          "geeknik",
-          "g4l1t0",
-          "convisoappsec",
-          "kurohost",
-          "dawid-czarnecki",
-          "forgedhallpass",
-          "jub0bs"
-        ],
-        "tags": [
-          "misconfig",
-          "headers",
-          "generic"
-        ],
-        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-        "severity": "info",
-        "metadata": {
-          "max-request": 1
-        }
-      },
-      "matcher-name": "clear-site-data",
-      "type": "http",
-      "host": "https://dotations.incubateur.anct.gouv.fr",
-      "matched-at": "https://dotations.incubateur.anct.gouv.fr",
-      "request": "GET / HTTP/1.1\r\nHost: dotations.incubateur.anct.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nContent-Type: text/html; charset=utf-8\r\nDate: Sun, 28 Jan 2024 01:30:42 GMT\r\nEtag: \"onywqj55lh1nr\"\r\nVary: Accept-Encoding\r\nX-Powered-By: Next.js\r\nX-Request-Id: 449a6e98-487a-4eeb-822b-fe4df2042140\r\n\r\n<!DOCTYPE html><html lang=\"fr\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width\"/><meta name=\"next-head-count\" content=\"2\"/><meta charSet=\"utf-8\"/><meta name=\"description\" content=\"Dotations Locales a pour vocation de construire avec les territoires un moyen d&#x27;estimer le montant de dotations de l&#x27;État en associant la connaissance que chaque territoire a de lui-même, les textes réglementaires modélisés ainsi que les données du calcul des dotations locales publiées en open data par la Direction Régionale des Collectivités Locales.\"/><meta name=\"theme-color\" content=\"#000091\"/><link rel=\"apple-touch-icon\" href=\"/favicon/apple-touch-icon.png\"/><link rel=\"icon\" href=\"/favicon/favicon.svg\" type=\"image/svg+xml\"/><link rel=\"shortcut icon\" href=\"/favicon/favicon.ico\" type=\"image/x-icon\"/><link rel=\"manifest\" href=\"/favicon/manifest.webmanifest\" crossorigin=\"use-credentials\"/><link href=\"https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css\" rel=\"stylesheet\"/><link rel=\"preload\" href=\"/_next/static/css/78eff6afd755b2bf.css\" as=\"style\"/><link rel=\"stylesheet\" href=\"/_next/static/css/78eff6afd755b2bf.css\" data-n-g=\"\"/><noscript data-n-css=\"\"></noscript><script defer=\"\" nomodule=\"\" src=\"/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js\"></script><script src=\"/_next/static/chunks/webpack-62c02dad1a6a4cb4.js\" defer=\"\"></script><script src=\"/_next/static/chunks/framework-73b8966a3c579ab0.js\" defer=\"\"></script><script src=\"/_next/static/chunks/main-fbe9c9f0314b4cf5.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/_app-6e3bb3549499e5a3.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/index-b659bf046f0eb349.js\" defer=\"\"></script><script src=\"/_next/static/92pUW3ciNEwHL8u4BsTYT/_buildManifest.js\" defer=\"\"></script><script src=\"/_next/static/92pUW3ciNEwHL8u4BsTYT/_ssgManifest.js\" defer=\"\"></script></head><body><div id=\"__next\"></div><script id=\"__NEXT_DATA__\" type=\"application/json\">{\"props\":{\"pageProps\":{}},\"page\":\"/\",\"query\":{},\"buildId\":\"92pUW3ciNEwHL8u4BsTYT\",\"nextExport\":true,\"autoExport\":true,\"isFallback\":false,\"scriptLoader\":[]}</script></body></html>",
-      "ip": "109.232.236.90",
-      "timestamp": "2024-01-28T01:30:42.8243118Z",
+      "timestamp": "2024-02-04T01:28:25.482374891Z",
       "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://dotations.incubateur.anct.gouv.fr'",
       "matcher-status": true
     },
@@ -432,9 +199,48 @@
       "host": "https://dotations.incubateur.anct.gouv.fr",
       "matched-at": "https://dotations.incubateur.anct.gouv.fr",
       "request": "GET / HTTP/1.1\r\nHost: dotations.incubateur.anct.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nContent-Type: text/html; charset=utf-8\r\nDate: Sun, 28 Jan 2024 01:30:42 GMT\r\nEtag: \"onywqj55lh1nr\"\r\nVary: Accept-Encoding\r\nX-Powered-By: Next.js\r\nX-Request-Id: 449a6e98-487a-4eeb-822b-fe4df2042140\r\n\r\n<!DOCTYPE html><html lang=\"fr\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width\"/><meta name=\"next-head-count\" content=\"2\"/><meta charSet=\"utf-8\"/><meta name=\"description\" content=\"Dotations Locales a pour vocation de construire avec les territoires un moyen d&#x27;estimer le montant de dotations de l&#x27;État en associant la connaissance que chaque territoire a de lui-même, les textes réglementaires modélisés ainsi que les données du calcul des dotations locales publiées en open data par la Direction Régionale des Collectivités Locales.\"/><meta name=\"theme-color\" content=\"#000091\"/><link rel=\"apple-touch-icon\" href=\"/favicon/apple-touch-icon.png\"/><link rel=\"icon\" href=\"/favicon/favicon.svg\" type=\"image/svg+xml\"/><link rel=\"shortcut icon\" href=\"/favicon/favicon.ico\" type=\"image/x-icon\"/><link rel=\"manifest\" href=\"/favicon/manifest.webmanifest\" crossorigin=\"use-credentials\"/><link href=\"https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css\" rel=\"stylesheet\"/><link rel=\"preload\" href=\"/_next/static/css/78eff6afd755b2bf.css\" as=\"style\"/><link rel=\"stylesheet\" href=\"/_next/static/css/78eff6afd755b2bf.css\" data-n-g=\"\"/><noscript data-n-css=\"\"></noscript><script defer=\"\" nomodule=\"\" src=\"/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js\"></script><script src=\"/_next/static/chunks/webpack-62c02dad1a6a4cb4.js\" defer=\"\"></script><script src=\"/_next/static/chunks/framework-73b8966a3c579ab0.js\" defer=\"\"></script><script src=\"/_next/static/chunks/main-fbe9c9f0314b4cf5.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/_app-6e3bb3549499e5a3.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/index-b659bf046f0eb349.js\" defer=\"\"></script><script src=\"/_next/static/92pUW3ciNEwHL8u4BsTYT/_buildManifest.js\" defer=\"\"></script><script src=\"/_next/static/92pUW3ciNEwHL8u4BsTYT/_ssgManifest.js\" defer=\"\"></script></head><body><div id=\"__next\"></div><script id=\"__NEXT_DATA__\" type=\"application/json\">{\"props\":{\"pageProps\":{}},\"page\":\"/\",\"query\":{},\"buildId\":\"92pUW3ciNEwHL8u4BsTYT\",\"nextExport\":true,\"autoExport\":true,\"isFallback\":false,\"scriptLoader\":[]}</script></body></html>",
+      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nContent-Type: text/html; charset=utf-8\r\nDate: Sun, 04 Feb 2024 01:28:34 GMT\r\nEtag: \"onywqj55lh1nr\"\r\nVary: Accept-Encoding\r\nX-Powered-By: Next.js\r\nX-Request-Id: c631a2c0-90b7-4f35-a28a-ad3c5ea19965\r\n\r\n<!DOCTYPE html><html lang=\"fr\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width\"/><meta name=\"next-head-count\" content=\"2\"/><meta charSet=\"utf-8\"/><meta name=\"description\" content=\"Dotations Locales a pour vocation de construire avec les territoires un moyen d&#x27;estimer le montant de dotations de l&#x27;État en associant la connaissance que chaque territoire a de lui-même, les textes réglementaires modélisés ainsi que les données du calcul des dotations locales publiées en open data par la Direction Régionale des Collectivités Locales.\"/><meta name=\"theme-color\" content=\"#000091\"/><link rel=\"apple-touch-icon\" href=\"/favicon/apple-touch-icon.png\"/><link rel=\"icon\" href=\"/favicon/favicon.svg\" type=\"image/svg+xml\"/><link rel=\"shortcut icon\" href=\"/favicon/favicon.ico\" type=\"image/x-icon\"/><link rel=\"manifest\" href=\"/favicon/manifest.webmanifest\" crossorigin=\"use-credentials\"/><link href=\"https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css\" rel=\"stylesheet\"/><link rel=\"preload\" href=\"/_next/static/css/78eff6afd755b2bf.css\" as=\"style\"/><link rel=\"stylesheet\" href=\"/_next/static/css/78eff6afd755b2bf.css\" data-n-g=\"\"/><noscript data-n-css=\"\"></noscript><script defer=\"\" nomodule=\"\" src=\"/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js\"></script><script src=\"/_next/static/chunks/webpack-62c02dad1a6a4cb4.js\" defer=\"\"></script><script src=\"/_next/static/chunks/framework-73b8966a3c579ab0.js\" defer=\"\"></script><script src=\"/_next/static/chunks/main-fbe9c9f0314b4cf5.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/_app-6e3bb3549499e5a3.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/index-b659bf046f0eb349.js\" defer=\"\"></script><script src=\"/_next/static/92pUW3ciNEwHL8u4BsTYT/_buildManifest.js\" defer=\"\"></script><script src=\"/_next/static/92pUW3ciNEwHL8u4BsTYT/_ssgManifest.js\" defer=\"\"></script></head><body><div id=\"__next\"></div><script id=\"__NEXT_DATA__\" type=\"application/json\">{\"props\":{\"pageProps\":{}},\"page\":\"/\",\"query\":{},\"buildId\":\"92pUW3ciNEwHL8u4BsTYT\",\"nextExport\":true,\"autoExport\":true,\"isFallback\":false,\"scriptLoader\":[]}</script></body></html>",
       "ip": "109.232.236.90",
-      "timestamp": "2024-01-28T01:30:42.824325836Z",
+      "timestamp": "2024-02-04T01:28:34.945417968Z",
+      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://dotations.incubateur.anct.gouv.fr'",
+      "matcher-status": true
+    },
+    {
+      "template": "http/misconfiguration/http-missing-security-headers.yaml",
+      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+      "template-id": "http-missing-security-headers",
+      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+      "info": {
+        "name": "HTTP Missing Security Headers",
+        "author": [
+          "socketz",
+          "geeknik",
+          "g4l1t0",
+          "convisoappsec",
+          "kurohost",
+          "dawid-czarnecki",
+          "forgedhallpass",
+          "jub0bs"
+        ],
+        "tags": [
+          "misconfig",
+          "headers",
+          "generic"
+        ],
+        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+        "severity": "info",
+        "metadata": {
+          "max-request": 1
+        }
+      },
+      "matcher-name": "x-frame-options",
+      "type": "http",
+      "host": "https://dotations.incubateur.anct.gouv.fr",
+      "matched-at": "https://dotations.incubateur.anct.gouv.fr",
+      "request": "GET / HTTP/1.1\r\nHost: dotations.incubateur.anct.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
+      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nContent-Type: text/html; charset=utf-8\r\nDate: Sun, 04 Feb 2024 01:28:34 GMT\r\nEtag: \"onywqj55lh1nr\"\r\nVary: Accept-Encoding\r\nX-Powered-By: Next.js\r\nX-Request-Id: c631a2c0-90b7-4f35-a28a-ad3c5ea19965\r\n\r\n<!DOCTYPE html><html lang=\"fr\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width\"/><meta name=\"next-head-count\" content=\"2\"/><meta charSet=\"utf-8\"/><meta name=\"description\" content=\"Dotations Locales a pour vocation de construire avec les territoires un moyen d&#x27;estimer le montant de dotations de l&#x27;État en associant la connaissance que chaque territoire a de lui-même, les textes réglementaires modélisés ainsi que les données du calcul des dotations locales publiées en open data par la Direction Régionale des Collectivités Locales.\"/><meta name=\"theme-color\" content=\"#000091\"/><link rel=\"apple-touch-icon\" href=\"/favicon/apple-touch-icon.png\"/><link rel=\"icon\" href=\"/favicon/favicon.svg\" type=\"image/svg+xml\"/><link rel=\"shortcut icon\" href=\"/favicon/favicon.ico\" type=\"image/x-icon\"/><link rel=\"manifest\" href=\"/favicon/manifest.webmanifest\" crossorigin=\"use-credentials\"/><link href=\"https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css\" rel=\"stylesheet\"/><link rel=\"preload\" href=\"/_next/static/css/78eff6afd755b2bf.css\" as=\"style\"/><link rel=\"stylesheet\" href=\"/_next/static/css/78eff6afd755b2bf.css\" data-n-g=\"\"/><noscript data-n-css=\"\"></noscript><script defer=\"\" nomodule=\"\" src=\"/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js\"></script><script src=\"/_next/static/chunks/webpack-62c02dad1a6a4cb4.js\" defer=\"\"></script><script src=\"/_next/static/chunks/framework-73b8966a3c579ab0.js\" defer=\"\"></script><script src=\"/_next/static/chunks/main-fbe9c9f0314b4cf5.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/_app-6e3bb3549499e5a3.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/index-b659bf046f0eb349.js\" defer=\"\"></script><script src=\"/_next/static/92pUW3ciNEwHL8u4BsTYT/_buildManifest.js\" defer=\"\"></script><script src=\"/_next/static/92pUW3ciNEwHL8u4BsTYT/_ssgManifest.js\" defer=\"\"></script></head><body><div id=\"__next\"></div><script id=\"__NEXT_DATA__\" type=\"application/json\">{\"props\":{\"pageProps\":{}},\"page\":\"/\",\"query\":{},\"buildId\":\"92pUW3ciNEwHL8u4BsTYT\",\"nextExport\":true,\"autoExport\":true,\"isFallback\":false,\"scriptLoader\":[]}</script></body></html>",
+      "ip": "109.232.236.90",
+      "timestamp": "2024-02-04T01:28:34.945456771Z",
       "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://dotations.incubateur.anct.gouv.fr'",
       "matcher-status": true
     },
@@ -471,9 +277,165 @@
       "host": "https://dotations.incubateur.anct.gouv.fr",
       "matched-at": "https://dotations.incubateur.anct.gouv.fr",
       "request": "GET / HTTP/1.1\r\nHost: dotations.incubateur.anct.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nContent-Type: text/html; charset=utf-8\r\nDate: Sun, 28 Jan 2024 01:30:42 GMT\r\nEtag: \"onywqj55lh1nr\"\r\nVary: Accept-Encoding\r\nX-Powered-By: Next.js\r\nX-Request-Id: 449a6e98-487a-4eeb-822b-fe4df2042140\r\n\r\n<!DOCTYPE html><html lang=\"fr\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width\"/><meta name=\"next-head-count\" content=\"2\"/><meta charSet=\"utf-8\"/><meta name=\"description\" content=\"Dotations Locales a pour vocation de construire avec les territoires un moyen d&#x27;estimer le montant de dotations de l&#x27;État en associant la connaissance que chaque territoire a de lui-même, les textes réglementaires modélisés ainsi que les données du calcul des dotations locales publiées en open data par la Direction Régionale des Collectivités Locales.\"/><meta name=\"theme-color\" content=\"#000091\"/><link rel=\"apple-touch-icon\" href=\"/favicon/apple-touch-icon.png\"/><link rel=\"icon\" href=\"/favicon/favicon.svg\" type=\"image/svg+xml\"/><link rel=\"shortcut icon\" href=\"/favicon/favicon.ico\" type=\"image/x-icon\"/><link rel=\"manifest\" href=\"/favicon/manifest.webmanifest\" crossorigin=\"use-credentials\"/><link href=\"https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css\" rel=\"stylesheet\"/><link rel=\"preload\" href=\"/_next/static/css/78eff6afd755b2bf.css\" as=\"style\"/><link rel=\"stylesheet\" href=\"/_next/static/css/78eff6afd755b2bf.css\" data-n-g=\"\"/><noscript data-n-css=\"\"></noscript><script defer=\"\" nomodule=\"\" src=\"/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js\"></script><script src=\"/_next/static/chunks/webpack-62c02dad1a6a4cb4.js\" defer=\"\"></script><script src=\"/_next/static/chunks/framework-73b8966a3c579ab0.js\" defer=\"\"></script><script src=\"/_next/static/chunks/main-fbe9c9f0314b4cf5.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/_app-6e3bb3549499e5a3.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/index-b659bf046f0eb349.js\" defer=\"\"></script><script src=\"/_next/static/92pUW3ciNEwHL8u4BsTYT/_buildManifest.js\" defer=\"\"></script><script src=\"/_next/static/92pUW3ciNEwHL8u4BsTYT/_ssgManifest.js\" defer=\"\"></script></head><body><div id=\"__next\"></div><script id=\"__NEXT_DATA__\" type=\"application/json\">{\"props\":{\"pageProps\":{}},\"page\":\"/\",\"query\":{},\"buildId\":\"92pUW3ciNEwHL8u4BsTYT\",\"nextExport\":true,\"autoExport\":true,\"isFallback\":false,\"scriptLoader\":[]}</script></body></html>",
+      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nContent-Type: text/html; charset=utf-8\r\nDate: Sun, 04 Feb 2024 01:28:34 GMT\r\nEtag: \"onywqj55lh1nr\"\r\nVary: Accept-Encoding\r\nX-Powered-By: Next.js\r\nX-Request-Id: c631a2c0-90b7-4f35-a28a-ad3c5ea19965\r\n\r\n<!DOCTYPE html><html lang=\"fr\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width\"/><meta name=\"next-head-count\" content=\"2\"/><meta charSet=\"utf-8\"/><meta name=\"description\" content=\"Dotations Locales a pour vocation de construire avec les territoires un moyen d&#x27;estimer le montant de dotations de l&#x27;État en associant la connaissance que chaque territoire a de lui-même, les textes réglementaires modélisés ainsi que les données du calcul des dotations locales publiées en open data par la Direction Régionale des Collectivités Locales.\"/><meta name=\"theme-color\" content=\"#000091\"/><link rel=\"apple-touch-icon\" href=\"/favicon/apple-touch-icon.png\"/><link rel=\"icon\" href=\"/favicon/favicon.svg\" type=\"image/svg+xml\"/><link rel=\"shortcut icon\" href=\"/favicon/favicon.ico\" type=\"image/x-icon\"/><link rel=\"manifest\" href=\"/favicon/manifest.webmanifest\" crossorigin=\"use-credentials\"/><link href=\"https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css\" rel=\"stylesheet\"/><link rel=\"preload\" href=\"/_next/static/css/78eff6afd755b2bf.css\" as=\"style\"/><link rel=\"stylesheet\" href=\"/_next/static/css/78eff6afd755b2bf.css\" data-n-g=\"\"/><noscript data-n-css=\"\"></noscript><script defer=\"\" nomodule=\"\" src=\"/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js\"></script><script src=\"/_next/static/chunks/webpack-62c02dad1a6a4cb4.js\" defer=\"\"></script><script src=\"/_next/static/chunks/framework-73b8966a3c579ab0.js\" defer=\"\"></script><script src=\"/_next/static/chunks/main-fbe9c9f0314b4cf5.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/_app-6e3bb3549499e5a3.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/index-b659bf046f0eb349.js\" defer=\"\"></script><script src=\"/_next/static/92pUW3ciNEwHL8u4BsTYT/_buildManifest.js\" defer=\"\"></script><script src=\"/_next/static/92pUW3ciNEwHL8u4BsTYT/_ssgManifest.js\" defer=\"\"></script></head><body><div id=\"__next\"></div><script id=\"__NEXT_DATA__\" type=\"application/json\">{\"props\":{\"pageProps\":{}},\"page\":\"/\",\"query\":{},\"buildId\":\"92pUW3ciNEwHL8u4BsTYT\",\"nextExport\":true,\"autoExport\":true,\"isFallback\":false,\"scriptLoader\":[]}</script></body></html>",
       "ip": "109.232.236.90",
-      "timestamp": "2024-01-28T01:30:42.82433853Z",
+      "timestamp": "2024-02-04T01:28:34.945476518Z",
+      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://dotations.incubateur.anct.gouv.fr'",
+      "matcher-status": true
+    },
+    {
+      "template": "http/misconfiguration/http-missing-security-headers.yaml",
+      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+      "template-id": "http-missing-security-headers",
+      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+      "info": {
+        "name": "HTTP Missing Security Headers",
+        "author": [
+          "socketz",
+          "geeknik",
+          "g4l1t0",
+          "convisoappsec",
+          "kurohost",
+          "dawid-czarnecki",
+          "forgedhallpass",
+          "jub0bs"
+        ],
+        "tags": [
+          "misconfig",
+          "headers",
+          "generic"
+        ],
+        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+        "severity": "info",
+        "metadata": {
+          "max-request": 1
+        }
+      },
+      "matcher-name": "x-permitted-cross-domain-policies",
+      "type": "http",
+      "host": "https://dotations.incubateur.anct.gouv.fr",
+      "matched-at": "https://dotations.incubateur.anct.gouv.fr",
+      "request": "GET / HTTP/1.1\r\nHost: dotations.incubateur.anct.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
+      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nContent-Type: text/html; charset=utf-8\r\nDate: Sun, 04 Feb 2024 01:28:34 GMT\r\nEtag: \"onywqj55lh1nr\"\r\nVary: Accept-Encoding\r\nX-Powered-By: Next.js\r\nX-Request-Id: c631a2c0-90b7-4f35-a28a-ad3c5ea19965\r\n\r\n<!DOCTYPE html><html lang=\"fr\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width\"/><meta name=\"next-head-count\" content=\"2\"/><meta charSet=\"utf-8\"/><meta name=\"description\" content=\"Dotations Locales a pour vocation de construire avec les territoires un moyen d&#x27;estimer le montant de dotations de l&#x27;État en associant la connaissance que chaque territoire a de lui-même, les textes réglementaires modélisés ainsi que les données du calcul des dotations locales publiées en open data par la Direction Régionale des Collectivités Locales.\"/><meta name=\"theme-color\" content=\"#000091\"/><link rel=\"apple-touch-icon\" href=\"/favicon/apple-touch-icon.png\"/><link rel=\"icon\" href=\"/favicon/favicon.svg\" type=\"image/svg+xml\"/><link rel=\"shortcut icon\" href=\"/favicon/favicon.ico\" type=\"image/x-icon\"/><link rel=\"manifest\" href=\"/favicon/manifest.webmanifest\" crossorigin=\"use-credentials\"/><link href=\"https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css\" rel=\"stylesheet\"/><link rel=\"preload\" href=\"/_next/static/css/78eff6afd755b2bf.css\" as=\"style\"/><link rel=\"stylesheet\" href=\"/_next/static/css/78eff6afd755b2bf.css\" data-n-g=\"\"/><noscript data-n-css=\"\"></noscript><script defer=\"\" nomodule=\"\" src=\"/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js\"></script><script src=\"/_next/static/chunks/webpack-62c02dad1a6a4cb4.js\" defer=\"\"></script><script src=\"/_next/static/chunks/framework-73b8966a3c579ab0.js\" defer=\"\"></script><script src=\"/_next/static/chunks/main-fbe9c9f0314b4cf5.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/_app-6e3bb3549499e5a3.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/index-b659bf046f0eb349.js\" defer=\"\"></script><script src=\"/_next/static/92pUW3ciNEwHL8u4BsTYT/_buildManifest.js\" defer=\"\"></script><script src=\"/_next/static/92pUW3ciNEwHL8u4BsTYT/_ssgManifest.js\" defer=\"\"></script></head><body><div id=\"__next\"></div><script id=\"__NEXT_DATA__\" type=\"application/json\">{\"props\":{\"pageProps\":{}},\"page\":\"/\",\"query\":{},\"buildId\":\"92pUW3ciNEwHL8u4BsTYT\",\"nextExport\":true,\"autoExport\":true,\"isFallback\":false,\"scriptLoader\":[]}</script></body></html>",
+      "ip": "109.232.236.90",
+      "timestamp": "2024-02-04T01:28:34.945493319Z",
+      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://dotations.incubateur.anct.gouv.fr'",
+      "matcher-status": true
+    },
+    {
+      "template": "http/misconfiguration/http-missing-security-headers.yaml",
+      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+      "template-id": "http-missing-security-headers",
+      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+      "info": {
+        "name": "HTTP Missing Security Headers",
+        "author": [
+          "socketz",
+          "geeknik",
+          "g4l1t0",
+          "convisoappsec",
+          "kurohost",
+          "dawid-czarnecki",
+          "forgedhallpass",
+          "jub0bs"
+        ],
+        "tags": [
+          "misconfig",
+          "headers",
+          "generic"
+        ],
+        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+        "severity": "info",
+        "metadata": {
+          "max-request": 1
+        }
+      },
+      "matcher-name": "cross-origin-resource-policy",
+      "type": "http",
+      "host": "https://dotations.incubateur.anct.gouv.fr",
+      "matched-at": "https://dotations.incubateur.anct.gouv.fr",
+      "request": "GET / HTTP/1.1\r\nHost: dotations.incubateur.anct.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
+      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nContent-Type: text/html; charset=utf-8\r\nDate: Sun, 04 Feb 2024 01:28:34 GMT\r\nEtag: \"onywqj55lh1nr\"\r\nVary: Accept-Encoding\r\nX-Powered-By: Next.js\r\nX-Request-Id: c631a2c0-90b7-4f35-a28a-ad3c5ea19965\r\n\r\n<!DOCTYPE html><html lang=\"fr\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width\"/><meta name=\"next-head-count\" content=\"2\"/><meta charSet=\"utf-8\"/><meta name=\"description\" content=\"Dotations Locales a pour vocation de construire avec les territoires un moyen d&#x27;estimer le montant de dotations de l&#x27;État en associant la connaissance que chaque territoire a de lui-même, les textes réglementaires modélisés ainsi que les données du calcul des dotations locales publiées en open data par la Direction Régionale des Collectivités Locales.\"/><meta name=\"theme-color\" content=\"#000091\"/><link rel=\"apple-touch-icon\" href=\"/favicon/apple-touch-icon.png\"/><link rel=\"icon\" href=\"/favicon/favicon.svg\" type=\"image/svg+xml\"/><link rel=\"shortcut icon\" href=\"/favicon/favicon.ico\" type=\"image/x-icon\"/><link rel=\"manifest\" href=\"/favicon/manifest.webmanifest\" crossorigin=\"use-credentials\"/><link href=\"https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css\" rel=\"stylesheet\"/><link rel=\"preload\" href=\"/_next/static/css/78eff6afd755b2bf.css\" as=\"style\"/><link rel=\"stylesheet\" href=\"/_next/static/css/78eff6afd755b2bf.css\" data-n-g=\"\"/><noscript data-n-css=\"\"></noscript><script defer=\"\" nomodule=\"\" src=\"/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js\"></script><script src=\"/_next/static/chunks/webpack-62c02dad1a6a4cb4.js\" defer=\"\"></script><script src=\"/_next/static/chunks/framework-73b8966a3c579ab0.js\" defer=\"\"></script><script src=\"/_next/static/chunks/main-fbe9c9f0314b4cf5.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/_app-6e3bb3549499e5a3.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/index-b659bf046f0eb349.js\" defer=\"\"></script><script src=\"/_next/static/92pUW3ciNEwHL8u4BsTYT/_buildManifest.js\" defer=\"\"></script><script src=\"/_next/static/92pUW3ciNEwHL8u4BsTYT/_ssgManifest.js\" defer=\"\"></script></head><body><div id=\"__next\"></div><script id=\"__NEXT_DATA__\" type=\"application/json\">{\"props\":{\"pageProps\":{}},\"page\":\"/\",\"query\":{},\"buildId\":\"92pUW3ciNEwHL8u4BsTYT\",\"nextExport\":true,\"autoExport\":true,\"isFallback\":false,\"scriptLoader\":[]}</script></body></html>",
+      "ip": "109.232.236.90",
+      "timestamp": "2024-02-04T01:28:34.945510532Z",
+      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://dotations.incubateur.anct.gouv.fr'",
+      "matcher-status": true
+    },
+    {
+      "template": "http/misconfiguration/http-missing-security-headers.yaml",
+      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+      "template-id": "http-missing-security-headers",
+      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+      "info": {
+        "name": "HTTP Missing Security Headers",
+        "author": [
+          "socketz",
+          "geeknik",
+          "g4l1t0",
+          "convisoappsec",
+          "kurohost",
+          "dawid-czarnecki",
+          "forgedhallpass",
+          "jub0bs"
+        ],
+        "tags": [
+          "misconfig",
+          "headers",
+          "generic"
+        ],
+        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+        "severity": "info",
+        "metadata": {
+          "max-request": 1
+        }
+      },
+      "matcher-name": "strict-transport-security",
+      "type": "http",
+      "host": "https://dotations.incubateur.anct.gouv.fr",
+      "matched-at": "https://dotations.incubateur.anct.gouv.fr",
+      "request": "GET / HTTP/1.1\r\nHost: dotations.incubateur.anct.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
+      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nContent-Type: text/html; charset=utf-8\r\nDate: Sun, 04 Feb 2024 01:28:34 GMT\r\nEtag: \"onywqj55lh1nr\"\r\nVary: Accept-Encoding\r\nX-Powered-By: Next.js\r\nX-Request-Id: c631a2c0-90b7-4f35-a28a-ad3c5ea19965\r\n\r\n<!DOCTYPE html><html lang=\"fr\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width\"/><meta name=\"next-head-count\" content=\"2\"/><meta charSet=\"utf-8\"/><meta name=\"description\" content=\"Dotations Locales a pour vocation de construire avec les territoires un moyen d&#x27;estimer le montant de dotations de l&#x27;État en associant la connaissance que chaque territoire a de lui-même, les textes réglementaires modélisés ainsi que les données du calcul des dotations locales publiées en open data par la Direction Régionale des Collectivités Locales.\"/><meta name=\"theme-color\" content=\"#000091\"/><link rel=\"apple-touch-icon\" href=\"/favicon/apple-touch-icon.png\"/><link rel=\"icon\" href=\"/favicon/favicon.svg\" type=\"image/svg+xml\"/><link rel=\"shortcut icon\" href=\"/favicon/favicon.ico\" type=\"image/x-icon\"/><link rel=\"manifest\" href=\"/favicon/manifest.webmanifest\" crossorigin=\"use-credentials\"/><link href=\"https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css\" rel=\"stylesheet\"/><link rel=\"preload\" href=\"/_next/static/css/78eff6afd755b2bf.css\" as=\"style\"/><link rel=\"stylesheet\" href=\"/_next/static/css/78eff6afd755b2bf.css\" data-n-g=\"\"/><noscript data-n-css=\"\"></noscript><script defer=\"\" nomodule=\"\" src=\"/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js\"></script><script src=\"/_next/static/chunks/webpack-62c02dad1a6a4cb4.js\" defer=\"\"></script><script src=\"/_next/static/chunks/framework-73b8966a3c579ab0.js\" defer=\"\"></script><script src=\"/_next/static/chunks/main-fbe9c9f0314b4cf5.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/_app-6e3bb3549499e5a3.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/index-b659bf046f0eb349.js\" defer=\"\"></script><script src=\"/_next/static/92pUW3ciNEwHL8u4BsTYT/_buildManifest.js\" defer=\"\"></script><script src=\"/_next/static/92pUW3ciNEwHL8u4BsTYT/_ssgManifest.js\" defer=\"\"></script></head><body><div id=\"__next\"></div><script id=\"__NEXT_DATA__\" type=\"application/json\">{\"props\":{\"pageProps\":{}},\"page\":\"/\",\"query\":{},\"buildId\":\"92pUW3ciNEwHL8u4BsTYT\",\"nextExport\":true,\"autoExport\":true,\"isFallback\":false,\"scriptLoader\":[]}</script></body></html>",
+      "ip": "109.232.236.90",
+      "timestamp": "2024-02-04T01:28:34.945525049Z",
+      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://dotations.incubateur.anct.gouv.fr'",
+      "matcher-status": true
+    },
+    {
+      "template": "http/misconfiguration/http-missing-security-headers.yaml",
+      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+      "template-id": "http-missing-security-headers",
+      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+      "info": {
+        "name": "HTTP Missing Security Headers",
+        "author": [
+          "socketz",
+          "geeknik",
+          "g4l1t0",
+          "convisoappsec",
+          "kurohost",
+          "dawid-czarnecki",
+          "forgedhallpass",
+          "jub0bs"
+        ],
+        "tags": [
+          "misconfig",
+          "headers",
+          "generic"
+        ],
+        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+        "severity": "info",
+        "metadata": {
+          "max-request": 1
+        }
+      },
+      "matcher-name": "content-security-policy",
+      "type": "http",
+      "host": "https://dotations.incubateur.anct.gouv.fr",
+      "matched-at": "https://dotations.incubateur.anct.gouv.fr",
+      "request": "GET / HTTP/1.1\r\nHost: dotations.incubateur.anct.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
+      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nContent-Type: text/html; charset=utf-8\r\nDate: Sun, 04 Feb 2024 01:28:34 GMT\r\nEtag: \"onywqj55lh1nr\"\r\nVary: Accept-Encoding\r\nX-Powered-By: Next.js\r\nX-Request-Id: c631a2c0-90b7-4f35-a28a-ad3c5ea19965\r\n\r\n<!DOCTYPE html><html lang=\"fr\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width\"/><meta name=\"next-head-count\" content=\"2\"/><meta charSet=\"utf-8\"/><meta name=\"description\" content=\"Dotations Locales a pour vocation de construire avec les territoires un moyen d&#x27;estimer le montant de dotations de l&#x27;État en associant la connaissance que chaque territoire a de lui-même, les textes réglementaires modélisés ainsi que les données du calcul des dotations locales publiées en open data par la Direction Régionale des Collectivités Locales.\"/><meta name=\"theme-color\" content=\"#000091\"/><link rel=\"apple-touch-icon\" href=\"/favicon/apple-touch-icon.png\"/><link rel=\"icon\" href=\"/favicon/favicon.svg\" type=\"image/svg+xml\"/><link rel=\"shortcut icon\" href=\"/favicon/favicon.ico\" type=\"image/x-icon\"/><link rel=\"manifest\" href=\"/favicon/manifest.webmanifest\" crossorigin=\"use-credentials\"/><link href=\"https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css\" rel=\"stylesheet\"/><link rel=\"preload\" href=\"/_next/static/css/78eff6afd755b2bf.css\" as=\"style\"/><link rel=\"stylesheet\" href=\"/_next/static/css/78eff6afd755b2bf.css\" data-n-g=\"\"/><noscript data-n-css=\"\"></noscript><script defer=\"\" nomodule=\"\" src=\"/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js\"></script><script src=\"/_next/static/chunks/webpack-62c02dad1a6a4cb4.js\" defer=\"\"></script><script src=\"/_next/static/chunks/framework-73b8966a3c579ab0.js\" defer=\"\"></script><script src=\"/_next/static/chunks/main-fbe9c9f0314b4cf5.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/_app-6e3bb3549499e5a3.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/index-b659bf046f0eb349.js\" defer=\"\"></script><script src=\"/_next/static/92pUW3ciNEwHL8u4BsTYT/_buildManifest.js\" defer=\"\"></script><script src=\"/_next/static/92pUW3ciNEwHL8u4BsTYT/_ssgManifest.js\" defer=\"\"></script></head><body><div id=\"__next\"></div><script id=\"__NEXT_DATA__\" type=\"application/json\">{\"props\":{\"pageProps\":{}},\"page\":\"/\",\"query\":{},\"buildId\":\"92pUW3ciNEwHL8u4BsTYT\",\"nextExport\":true,\"autoExport\":true,\"isFallback\":false,\"scriptLoader\":[]}</script></body></html>",
+      "ip": "109.232.236.90",
+      "timestamp": "2024-02-04T01:28:34.945582948Z",
       "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://dotations.incubateur.anct.gouv.fr'",
       "matcher-status": true
     },
@@ -510,9 +472,48 @@
       "host": "https://dotations.incubateur.anct.gouv.fr",
       "matched-at": "https://dotations.incubateur.anct.gouv.fr",
       "request": "GET / HTTP/1.1\r\nHost: dotations.incubateur.anct.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nContent-Type: text/html; charset=utf-8\r\nDate: Sun, 28 Jan 2024 01:30:42 GMT\r\nEtag: \"onywqj55lh1nr\"\r\nVary: Accept-Encoding\r\nX-Powered-By: Next.js\r\nX-Request-Id: 449a6e98-487a-4eeb-822b-fe4df2042140\r\n\r\n<!DOCTYPE html><html lang=\"fr\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width\"/><meta name=\"next-head-count\" content=\"2\"/><meta charSet=\"utf-8\"/><meta name=\"description\" content=\"Dotations Locales a pour vocation de construire avec les territoires un moyen d&#x27;estimer le montant de dotations de l&#x27;État en associant la connaissance que chaque territoire a de lui-même, les textes réglementaires modélisés ainsi que les données du calcul des dotations locales publiées en open data par la Direction Régionale des Collectivités Locales.\"/><meta name=\"theme-color\" content=\"#000091\"/><link rel=\"apple-touch-icon\" href=\"/favicon/apple-touch-icon.png\"/><link rel=\"icon\" href=\"/favicon/favicon.svg\" type=\"image/svg+xml\"/><link rel=\"shortcut icon\" href=\"/favicon/favicon.ico\" type=\"image/x-icon\"/><link rel=\"manifest\" href=\"/favicon/manifest.webmanifest\" crossorigin=\"use-credentials\"/><link href=\"https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css\" rel=\"stylesheet\"/><link rel=\"preload\" href=\"/_next/static/css/78eff6afd755b2bf.css\" as=\"style\"/><link rel=\"stylesheet\" href=\"/_next/static/css/78eff6afd755b2bf.css\" data-n-g=\"\"/><noscript data-n-css=\"\"></noscript><script defer=\"\" nomodule=\"\" src=\"/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js\"></script><script src=\"/_next/static/chunks/webpack-62c02dad1a6a4cb4.js\" defer=\"\"></script><script src=\"/_next/static/chunks/framework-73b8966a3c579ab0.js\" defer=\"\"></script><script src=\"/_next/static/chunks/main-fbe9c9f0314b4cf5.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/_app-6e3bb3549499e5a3.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/index-b659bf046f0eb349.js\" defer=\"\"></script><script src=\"/_next/static/92pUW3ciNEwHL8u4BsTYT/_buildManifest.js\" defer=\"\"></script><script src=\"/_next/static/92pUW3ciNEwHL8u4BsTYT/_ssgManifest.js\" defer=\"\"></script></head><body><div id=\"__next\"></div><script id=\"__NEXT_DATA__\" type=\"application/json\">{\"props\":{\"pageProps\":{}},\"page\":\"/\",\"query\":{},\"buildId\":\"92pUW3ciNEwHL8u4BsTYT\",\"nextExport\":true,\"autoExport\":true,\"isFallback\":false,\"scriptLoader\":[]}</script></body></html>",
+      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nContent-Type: text/html; charset=utf-8\r\nDate: Sun, 04 Feb 2024 01:28:34 GMT\r\nEtag: \"onywqj55lh1nr\"\r\nVary: Accept-Encoding\r\nX-Powered-By: Next.js\r\nX-Request-Id: c631a2c0-90b7-4f35-a28a-ad3c5ea19965\r\n\r\n<!DOCTYPE html><html lang=\"fr\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width\"/><meta name=\"next-head-count\" content=\"2\"/><meta charSet=\"utf-8\"/><meta name=\"description\" content=\"Dotations Locales a pour vocation de construire avec les territoires un moyen d&#x27;estimer le montant de dotations de l&#x27;État en associant la connaissance que chaque territoire a de lui-même, les textes réglementaires modélisés ainsi que les données du calcul des dotations locales publiées en open data par la Direction Régionale des Collectivités Locales.\"/><meta name=\"theme-color\" content=\"#000091\"/><link rel=\"apple-touch-icon\" href=\"/favicon/apple-touch-icon.png\"/><link rel=\"icon\" href=\"/favicon/favicon.svg\" type=\"image/svg+xml\"/><link rel=\"shortcut icon\" href=\"/favicon/favicon.ico\" type=\"image/x-icon\"/><link rel=\"manifest\" href=\"/favicon/manifest.webmanifest\" crossorigin=\"use-credentials\"/><link href=\"https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css\" rel=\"stylesheet\"/><link rel=\"preload\" href=\"/_next/static/css/78eff6afd755b2bf.css\" as=\"style\"/><link rel=\"stylesheet\" href=\"/_next/static/css/78eff6afd755b2bf.css\" data-n-g=\"\"/><noscript data-n-css=\"\"></noscript><script defer=\"\" nomodule=\"\" src=\"/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js\"></script><script src=\"/_next/static/chunks/webpack-62c02dad1a6a4cb4.js\" defer=\"\"></script><script src=\"/_next/static/chunks/framework-73b8966a3c579ab0.js\" defer=\"\"></script><script src=\"/_next/static/chunks/main-fbe9c9f0314b4cf5.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/_app-6e3bb3549499e5a3.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/index-b659bf046f0eb349.js\" defer=\"\"></script><script src=\"/_next/static/92pUW3ciNEwHL8u4BsTYT/_buildManifest.js\" defer=\"\"></script><script src=\"/_next/static/92pUW3ciNEwHL8u4BsTYT/_ssgManifest.js\" defer=\"\"></script></head><body><div id=\"__next\"></div><script id=\"__NEXT_DATA__\" type=\"application/json\">{\"props\":{\"pageProps\":{}},\"page\":\"/\",\"query\":{},\"buildId\":\"92pUW3ciNEwHL8u4BsTYT\",\"nextExport\":true,\"autoExport\":true,\"isFallback\":false,\"scriptLoader\":[]}</script></body></html>",
       "ip": "109.232.236.90",
-      "timestamp": "2024-01-28T01:30:42.824352767Z",
+      "timestamp": "2024-02-04T01:28:34.945596944Z",
+      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://dotations.incubateur.anct.gouv.fr'",
+      "matcher-status": true
+    },
+    {
+      "template": "http/misconfiguration/http-missing-security-headers.yaml",
+      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+      "template-id": "http-missing-security-headers",
+      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+      "info": {
+        "name": "HTTP Missing Security Headers",
+        "author": [
+          "socketz",
+          "geeknik",
+          "g4l1t0",
+          "convisoappsec",
+          "kurohost",
+          "dawid-czarnecki",
+          "forgedhallpass",
+          "jub0bs"
+        ],
+        "tags": [
+          "misconfig",
+          "headers",
+          "generic"
+        ],
+        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+        "severity": "info",
+        "metadata": {
+          "max-request": 1
+        }
+      },
+      "matcher-name": "clear-site-data",
+      "type": "http",
+      "host": "https://dotations.incubateur.anct.gouv.fr",
+      "matched-at": "https://dotations.incubateur.anct.gouv.fr",
+      "request": "GET / HTTP/1.1\r\nHost: dotations.incubateur.anct.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
+      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nContent-Type: text/html; charset=utf-8\r\nDate: Sun, 04 Feb 2024 01:28:34 GMT\r\nEtag: \"onywqj55lh1nr\"\r\nVary: Accept-Encoding\r\nX-Powered-By: Next.js\r\nX-Request-Id: c631a2c0-90b7-4f35-a28a-ad3c5ea19965\r\n\r\n<!DOCTYPE html><html lang=\"fr\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width\"/><meta name=\"next-head-count\" content=\"2\"/><meta charSet=\"utf-8\"/><meta name=\"description\" content=\"Dotations Locales a pour vocation de construire avec les territoires un moyen d&#x27;estimer le montant de dotations de l&#x27;État en associant la connaissance que chaque territoire a de lui-même, les textes réglementaires modélisés ainsi que les données du calcul des dotations locales publiées en open data par la Direction Régionale des Collectivités Locales.\"/><meta name=\"theme-color\" content=\"#000091\"/><link rel=\"apple-touch-icon\" href=\"/favicon/apple-touch-icon.png\"/><link rel=\"icon\" href=\"/favicon/favicon.svg\" type=\"image/svg+xml\"/><link rel=\"shortcut icon\" href=\"/favicon/favicon.ico\" type=\"image/x-icon\"/><link rel=\"manifest\" href=\"/favicon/manifest.webmanifest\" crossorigin=\"use-credentials\"/><link href=\"https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css\" rel=\"stylesheet\"/><link rel=\"preload\" href=\"/_next/static/css/78eff6afd755b2bf.css\" as=\"style\"/><link rel=\"stylesheet\" href=\"/_next/static/css/78eff6afd755b2bf.css\" data-n-g=\"\"/><noscript data-n-css=\"\"></noscript><script defer=\"\" nomodule=\"\" src=\"/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js\"></script><script src=\"/_next/static/chunks/webpack-62c02dad1a6a4cb4.js\" defer=\"\"></script><script src=\"/_next/static/chunks/framework-73b8966a3c579ab0.js\" defer=\"\"></script><script src=\"/_next/static/chunks/main-fbe9c9f0314b4cf5.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/_app-6e3bb3549499e5a3.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/index-b659bf046f0eb349.js\" defer=\"\"></script><script src=\"/_next/static/92pUW3ciNEwHL8u4BsTYT/_buildManifest.js\" defer=\"\"></script><script src=\"/_next/static/92pUW3ciNEwHL8u4BsTYT/_ssgManifest.js\" defer=\"\"></script></head><body><div id=\"__next\"></div><script id=\"__NEXT_DATA__\" type=\"application/json\">{\"props\":{\"pageProps\":{}},\"page\":\"/\",\"query\":{},\"buildId\":\"92pUW3ciNEwHL8u4BsTYT\",\"nextExport\":true,\"autoExport\":true,\"isFallback\":false,\"scriptLoader\":[]}</script></body></html>",
+      "ip": "109.232.236.90",
+      "timestamp": "2024-02-04T01:28:34.945609728Z",
       "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://dotations.incubateur.anct.gouv.fr'",
       "matcher-status": true
     },
@@ -549,9 +550,9 @@
       "host": "https://dotations.incubateur.anct.gouv.fr",
       "matched-at": "https://dotations.incubateur.anct.gouv.fr",
       "request": "GET / HTTP/1.1\r\nHost: dotations.incubateur.anct.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nContent-Type: text/html; charset=utf-8\r\nDate: Sun, 28 Jan 2024 01:30:42 GMT\r\nEtag: \"onywqj55lh1nr\"\r\nVary: Accept-Encoding\r\nX-Powered-By: Next.js\r\nX-Request-Id: 449a6e98-487a-4eeb-822b-fe4df2042140\r\n\r\n<!DOCTYPE html><html lang=\"fr\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width\"/><meta name=\"next-head-count\" content=\"2\"/><meta charSet=\"utf-8\"/><meta name=\"description\" content=\"Dotations Locales a pour vocation de construire avec les territoires un moyen d&#x27;estimer le montant de dotations de l&#x27;État en associant la connaissance que chaque territoire a de lui-même, les textes réglementaires modélisés ainsi que les données du calcul des dotations locales publiées en open data par la Direction Régionale des Collectivités Locales.\"/><meta name=\"theme-color\" content=\"#000091\"/><link rel=\"apple-touch-icon\" href=\"/favicon/apple-touch-icon.png\"/><link rel=\"icon\" href=\"/favicon/favicon.svg\" type=\"image/svg+xml\"/><link rel=\"shortcut icon\" href=\"/favicon/favicon.ico\" type=\"image/x-icon\"/><link rel=\"manifest\" href=\"/favicon/manifest.webmanifest\" crossorigin=\"use-credentials\"/><link href=\"https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css\" rel=\"stylesheet\"/><link rel=\"preload\" href=\"/_next/static/css/78eff6afd755b2bf.css\" as=\"style\"/><link rel=\"stylesheet\" href=\"/_next/static/css/78eff6afd755b2bf.css\" data-n-g=\"\"/><noscript data-n-css=\"\"></noscript><script defer=\"\" nomodule=\"\" src=\"/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js\"></script><script src=\"/_next/static/chunks/webpack-62c02dad1a6a4cb4.js\" defer=\"\"></script><script src=\"/_next/static/chunks/framework-73b8966a3c579ab0.js\" defer=\"\"></script><script src=\"/_next/static/chunks/main-fbe9c9f0314b4cf5.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/_app-6e3bb3549499e5a3.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/index-b659bf046f0eb349.js\" defer=\"\"></script><script src=\"/_next/static/92pUW3ciNEwHL8u4BsTYT/_buildManifest.js\" defer=\"\"></script><script src=\"/_next/static/92pUW3ciNEwHL8u4BsTYT/_ssgManifest.js\" defer=\"\"></script></head><body><div id=\"__next\"></div><script id=\"__NEXT_DATA__\" type=\"application/json\">{\"props\":{\"pageProps\":{}},\"page\":\"/\",\"query\":{},\"buildId\":\"92pUW3ciNEwHL8u4BsTYT\",\"nextExport\":true,\"autoExport\":true,\"isFallback\":false,\"scriptLoader\":[]}</script></body></html>",
+      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nContent-Type: text/html; charset=utf-8\r\nDate: Sun, 04 Feb 2024 01:28:34 GMT\r\nEtag: \"onywqj55lh1nr\"\r\nVary: Accept-Encoding\r\nX-Powered-By: Next.js\r\nX-Request-Id: c631a2c0-90b7-4f35-a28a-ad3c5ea19965\r\n\r\n<!DOCTYPE html><html lang=\"fr\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width\"/><meta name=\"next-head-count\" content=\"2\"/><meta charSet=\"utf-8\"/><meta name=\"description\" content=\"Dotations Locales a pour vocation de construire avec les territoires un moyen d&#x27;estimer le montant de dotations de l&#x27;État en associant la connaissance que chaque territoire a de lui-même, les textes réglementaires modélisés ainsi que les données du calcul des dotations locales publiées en open data par la Direction Régionale des Collectivités Locales.\"/><meta name=\"theme-color\" content=\"#000091\"/><link rel=\"apple-touch-icon\" href=\"/favicon/apple-touch-icon.png\"/><link rel=\"icon\" href=\"/favicon/favicon.svg\" type=\"image/svg+xml\"/><link rel=\"shortcut icon\" href=\"/favicon/favicon.ico\" type=\"image/x-icon\"/><link rel=\"manifest\" href=\"/favicon/manifest.webmanifest\" crossorigin=\"use-credentials\"/><link href=\"https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css\" rel=\"stylesheet\"/><link rel=\"preload\" href=\"/_next/static/css/78eff6afd755b2bf.css\" as=\"style\"/><link rel=\"stylesheet\" href=\"/_next/static/css/78eff6afd755b2bf.css\" data-n-g=\"\"/><noscript data-n-css=\"\"></noscript><script defer=\"\" nomodule=\"\" src=\"/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js\"></script><script src=\"/_next/static/chunks/webpack-62c02dad1a6a4cb4.js\" defer=\"\"></script><script src=\"/_next/static/chunks/framework-73b8966a3c579ab0.js\" defer=\"\"></script><script src=\"/_next/static/chunks/main-fbe9c9f0314b4cf5.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/_app-6e3bb3549499e5a3.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/index-b659bf046f0eb349.js\" defer=\"\"></script><script src=\"/_next/static/92pUW3ciNEwHL8u4BsTYT/_buildManifest.js\" defer=\"\"></script><script src=\"/_next/static/92pUW3ciNEwHL8u4BsTYT/_ssgManifest.js\" defer=\"\"></script></head><body><div id=\"__next\"></div><script id=\"__NEXT_DATA__\" type=\"application/json\">{\"props\":{\"pageProps\":{}},\"page\":\"/\",\"query\":{},\"buildId\":\"92pUW3ciNEwHL8u4BsTYT\",\"nextExport\":true,\"autoExport\":true,\"isFallback\":false,\"scriptLoader\":[]}</script></body></html>",
       "ip": "109.232.236.90",
-      "timestamp": "2024-01-28T01:30:42.824368686Z",
+      "timestamp": "2024-02-04T01:28:34.94562174Z",
       "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://dotations.incubateur.anct.gouv.fr'",
       "matcher-status": true
     },
@@ -588,9 +589,9 @@
       "host": "https://dotations.incubateur.anct.gouv.fr",
       "matched-at": "https://dotations.incubateur.anct.gouv.fr",
       "request": "GET / HTTP/1.1\r\nHost: dotations.incubateur.anct.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nContent-Type: text/html; charset=utf-8\r\nDate: Sun, 28 Jan 2024 01:30:42 GMT\r\nEtag: \"onywqj55lh1nr\"\r\nVary: Accept-Encoding\r\nX-Powered-By: Next.js\r\nX-Request-Id: 449a6e98-487a-4eeb-822b-fe4df2042140\r\n\r\n<!DOCTYPE html><html lang=\"fr\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width\"/><meta name=\"next-head-count\" content=\"2\"/><meta charSet=\"utf-8\"/><meta name=\"description\" content=\"Dotations Locales a pour vocation de construire avec les territoires un moyen d&#x27;estimer le montant de dotations de l&#x27;État en associant la connaissance que chaque territoire a de lui-même, les textes réglementaires modélisés ainsi que les données du calcul des dotations locales publiées en open data par la Direction Régionale des Collectivités Locales.\"/><meta name=\"theme-color\" content=\"#000091\"/><link rel=\"apple-touch-icon\" href=\"/favicon/apple-touch-icon.png\"/><link rel=\"icon\" href=\"/favicon/favicon.svg\" type=\"image/svg+xml\"/><link rel=\"shortcut icon\" href=\"/favicon/favicon.ico\" type=\"image/x-icon\"/><link rel=\"manifest\" href=\"/favicon/manifest.webmanifest\" crossorigin=\"use-credentials\"/><link href=\"https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css\" rel=\"stylesheet\"/><link rel=\"preload\" href=\"/_next/static/css/78eff6afd755b2bf.css\" as=\"style\"/><link rel=\"stylesheet\" href=\"/_next/static/css/78eff6afd755b2bf.css\" data-n-g=\"\"/><noscript data-n-css=\"\"></noscript><script defer=\"\" nomodule=\"\" src=\"/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js\"></script><script src=\"/_next/static/chunks/webpack-62c02dad1a6a4cb4.js\" defer=\"\"></script><script src=\"/_next/static/chunks/framework-73b8966a3c579ab0.js\" defer=\"\"></script><script src=\"/_next/static/chunks/main-fbe9c9f0314b4cf5.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/_app-6e3bb3549499e5a3.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/index-b659bf046f0eb349.js\" defer=\"\"></script><script src=\"/_next/static/92pUW3ciNEwHL8u4BsTYT/_buildManifest.js\" defer=\"\"></script><script src=\"/_next/static/92pUW3ciNEwHL8u4BsTYT/_ssgManifest.js\" defer=\"\"></script></head><body><div id=\"__next\"></div><script id=\"__NEXT_DATA__\" type=\"application/json\">{\"props\":{\"pageProps\":{}},\"page\":\"/\",\"query\":{},\"buildId\":\"92pUW3ciNEwHL8u4BsTYT\",\"nextExport\":true,\"autoExport\":true,\"isFallback\":false,\"scriptLoader\":[]}</script></body></html>",
+      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nContent-Type: text/html; charset=utf-8\r\nDate: Sun, 04 Feb 2024 01:28:34 GMT\r\nEtag: \"onywqj55lh1nr\"\r\nVary: Accept-Encoding\r\nX-Powered-By: Next.js\r\nX-Request-Id: c631a2c0-90b7-4f35-a28a-ad3c5ea19965\r\n\r\n<!DOCTYPE html><html lang=\"fr\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width\"/><meta name=\"next-head-count\" content=\"2\"/><meta charSet=\"utf-8\"/><meta name=\"description\" content=\"Dotations Locales a pour vocation de construire avec les territoires un moyen d&#x27;estimer le montant de dotations de l&#x27;État en associant la connaissance que chaque territoire a de lui-même, les textes réglementaires modélisés ainsi que les données du calcul des dotations locales publiées en open data par la Direction Régionale des Collectivités Locales.\"/><meta name=\"theme-color\" content=\"#000091\"/><link rel=\"apple-touch-icon\" href=\"/favicon/apple-touch-icon.png\"/><link rel=\"icon\" href=\"/favicon/favicon.svg\" type=\"image/svg+xml\"/><link rel=\"shortcut icon\" href=\"/favicon/favicon.ico\" type=\"image/x-icon\"/><link rel=\"manifest\" href=\"/favicon/manifest.webmanifest\" crossorigin=\"use-credentials\"/><link href=\"https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css\" rel=\"stylesheet\"/><link rel=\"preload\" href=\"/_next/static/css/78eff6afd755b2bf.css\" as=\"style\"/><link rel=\"stylesheet\" href=\"/_next/static/css/78eff6afd755b2bf.css\" data-n-g=\"\"/><noscript data-n-css=\"\"></noscript><script defer=\"\" nomodule=\"\" src=\"/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js\"></script><script src=\"/_next/static/chunks/webpack-62c02dad1a6a4cb4.js\" defer=\"\"></script><script src=\"/_next/static/chunks/framework-73b8966a3c579ab0.js\" defer=\"\"></script><script src=\"/_next/static/chunks/main-fbe9c9f0314b4cf5.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/_app-6e3bb3549499e5a3.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/index-b659bf046f0eb349.js\" defer=\"\"></script><script src=\"/_next/static/92pUW3ciNEwHL8u4BsTYT/_buildManifest.js\" defer=\"\"></script><script src=\"/_next/static/92pUW3ciNEwHL8u4BsTYT/_ssgManifest.js\" defer=\"\"></script></head><body><div id=\"__next\"></div><script id=\"__NEXT_DATA__\" type=\"application/json\">{\"props\":{\"pageProps\":{}},\"page\":\"/\",\"query\":{},\"buildId\":\"92pUW3ciNEwHL8u4BsTYT\",\"nextExport\":true,\"autoExport\":true,\"isFallback\":false,\"scriptLoader\":[]}</script></body></html>",
       "ip": "109.232.236.90",
-      "timestamp": "2024-01-28T01:30:42.824383203Z",
+      "timestamp": "2024-02-04T01:28:34.945633693Z",
       "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://dotations.incubateur.anct.gouv.fr'",
       "matcher-status": true
     },
@@ -606,6 +607,7 @@
           "pdteam"
         ],
         "tags": [
+          "miscellaneous",
           "misc",
           "generic"
         ],
@@ -618,9 +620,9 @@
       "host": "https://dotations.incubateur.anct.gouv.fr",
       "matched-at": "https://dotations.incubateur.anct.gouv.fr/robots.txt",
       "request": "GET /robots.txt HTTP/1.1\r\nHost: dotations.incubateur.anct.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nContent-Length: 47\r\nAccept-Ranges: bytes\r\nCache-Control: public, max-age=0\r\nContent-Type: text/plain; charset=UTF-8\r\nDate: Sun, 28 Jan 2024 01:30:59 GMT\r\nEtag: W/\"2f-18cc63f1098\"\r\nLast-Modified: Mon, 01 Jan 2024 18:17:51 GMT\r\nVary: Accept-Encoding\r\nX-Request-Id: 1cdaec4b-2e03-4af7-aaec-8ae4a1242a14\r\n\r\n# Allow all user agents.\nUser-agent: *\nAllow: /",
+      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nContent-Length: 47\r\nAccept-Ranges: bytes\r\nCache-Control: public, max-age=0\r\nContent-Type: text/plain; charset=UTF-8\r\nDate: Sun, 04 Feb 2024 01:28:44 GMT\r\nEtag: W/\"2f-18cc63f1098\"\r\nLast-Modified: Mon, 01 Jan 2024 18:17:51 GMT\r\nVary: Accept-Encoding\r\nX-Request-Id: e9a080bd-16b2-4189-85e1-a24e0331a7be\r\n\r\n# Allow all user agents.\nUser-agent: *\nAllow: /",
       "ip": "109.232.236.90",
-      "timestamp": "2024-01-28T01:30:59.783902311Z",
+      "timestamp": "2024-02-04T01:28:44.985837395Z",
       "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://dotations.incubateur.anct.gouv.fr/robots.txt'",
       "matcher-status": true
     },
@@ -651,7 +653,7 @@
         "Let's Encrypt"
       ],
       "ip": "109.232.236.90",
-      "timestamp": "2024-01-28T01:37:15.717577029Z",
+      "timestamp": "2024-02-04T01:34:39.906552982Z",
       "matcher-status": true
     },
     {
@@ -681,7 +683,7 @@
         "dotations.incubateur.anct.gouv.fr"
       ],
       "ip": "109.232.236.90",
-      "timestamp": "2024-01-28T01:37:15.717724905Z",
+      "timestamp": "2024-02-04T01:34:39.90667911Z",
       "matcher-status": true
     },
     {
@@ -712,7 +714,7 @@
         "tls12"
       ],
       "ip": "109.232.236.90",
-      "timestamp": "2024-01-28T01:37:17.988215967Z",
+      "timestamp": "2024-02-04T01:34:40.921825759Z",
       "matcher-status": true
     },
     {
@@ -743,7 +745,7 @@
         "tls13"
       ],
       "ip": "109.232.236.90",
-      "timestamp": "2024-01-28T01:37:18.301163596Z",
+      "timestamp": "2024-02-04T01:34:41.115968003Z",
       "matcher-status": true
     }
   ]
