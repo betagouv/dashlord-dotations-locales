@@ -21,27 +21,27 @@
       }
     },
     {
-      "type": "unknown",
-      "url": "https://dotations-locales-back.osc-fr1.scalingo.io/init"
-    },
-    {
       "type": "jsdelivr",
       "url": "https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.woff2?t=1590207869815",
       "details": {
         "id": "jsdelivr",
         "message": "Host files locally"
       }
+    },
+    {
+      "type": "unknown",
+      "url": "https://dotations-locales-back.osc-fr1.scalingo.io/init"
     }
   ],
   "cookies": [],
   "headers": {
     "content-encoding": "gzip",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 24 Mar 2024 01:20:29 GMT",
+    "date": "Sun, 31 Mar 2024 01:20:54 GMT",
     "etag": "\"onywqj55lh1nr\"",
     "vary": "Accept-Encoding",
     "x-powered-by": "Next.js",
-    "x-request-id": "d7c74d5a-eb5a-45ee-90b5-d7e4b4d40f0c"
+    "x-request-id": "d4e2a3ab-770a-46cd-9dae-a907863498ae"
   },
   "endpoints": [
     {
@@ -102,19 +102,18 @@
     },
     {
       "hostname": "cdn.jsdelivr.net",
-      "ip": "146.75.77.229",
+      "ip": "151.101.41.229",
       "geoip": {
         "city": {
-          "geoname_id": 4887398,
+          "geoname_id": 5392171,
           "names": {
-            "de": "Chicago",
-            "en": "Chicago",
-            "es": "Chicago",
-            "fr": "Chicago",
-            "ja": "シカゴ",
-            "pt-BR": "Chicago",
-            "ru": "Чикаго",
-            "zh-CN": "芝加哥"
+            "de": "San José",
+            "en": "San Jose",
+            "es": "San José",
+            "fr": "San José",
+            "ja": "サンノゼ",
+            "pt-BR": "San José",
+            "ru": "Сан-Хосе"
           }
         },
         "continent": {
@@ -147,13 +146,13 @@
         },
         "location": {
           "accuracy_radius": 20,
-          "latitude": 41.8719,
-          "longitude": -87.6589,
-          "metro_code": 602,
-          "time_zone": "America/Chicago"
+          "latitude": 37.1835,
+          "longitude": -121.7714,
+          "metro_code": 807,
+          "time_zone": "America/Los_Angeles"
         },
         "postal": {
-          "code": "60607"
+          "code": "95141"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -171,17 +170,17 @@
         },
         "subdivisions": [
           {
-            "geoname_id": 4896861,
-            "iso_code": "IL",
+            "geoname_id": 5332921,
+            "iso_code": "CA",
             "names": {
-              "de": "Illinois",
-              "en": "Illinois",
-              "es": "Illinois",
-              "fr": "Illinois",
-              "ja": "イリノイ州",
-              "pt-BR": "Ilinóis",
-              "ru": "Иллинойс",
-              "zh-CN": "伊利诺伊州"
+              "de": "Kalifornien",
+              "en": "California",
+              "es": "California",
+              "fr": "Californie",
+              "ja": "カリフォルニア州",
+              "pt-BR": "Califórnia",
+              "ru": "Калифорния",
+              "zh-CN": "加州"
             }
           }
         ]
