@@ -5804,7 +5804,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 1
+            "score": 0.75
           },
           "accessibility": {
             "title": "Accessibility",
@@ -5980,7 +5980,7 @@
       "apdexGrade": "A",
       "uptime": 100,
       "uptimeGrade": "A",
-      "testsslExpireSoon": false,
+      "testsslExpireSoon": true,
       "testsslExpireDate": "2024-06-07T15:46:00.000Z",
       "testsslGrade": "A",
       "cookiesGrade": "A",
@@ -5989,8 +5989,8 @@
       "trackersCount": 5,
       "zapCount": 9,
       "zapGrade": "D",
-      "lighthouse_performance": 1,
-      "lighthouse_performanceGrade": "A",
+      "lighthouse_performance": 0.75,
+      "lighthouse_performanceGrade": "B",
       "lighthouse_accessibility": 0.97,
       "lighthouse_accessibilityGrade": "A",
       "lighthouse_best-practices": 1,
